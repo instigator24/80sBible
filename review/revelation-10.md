@@ -1,0 +1,17 @@
+### Revelation 10:1-4
+**WEB:** I saw a mighty angel coming down out of the sky, clothed with a cloud. A rainbow was on his head. His face was like the sun, and his feet like pillars of fire. He had in his hand a little open book. He set his right foot on the sea, and his left on the land. He cried with a loud voice, as a lion roars. When he cried, the seven thunders uttered their voices. When the seven thunders sounded, I was about to write; but I heard a voice from the sky saying, “Seal up the things which the seven thunders said, and don’t write them.”
+**Draft:** Then I see this totally epic angel coming down outta the sky, wrapped in a cloud like a cape. He's got a rainbow crowning his head, his face is blazing like the sun, and his legs look like pillars of fire -- gnarly sight, for real. In his hand he's holding a little scroll, already cracked open. He plants his right foot down on the sea and his left foot on dry land, then lets out a roar loud as a lion, like a boss. When he shouts, seven thunders boom back their own voices. I was about to jot all that down, but a voice from the sky cuts in: "Seal that up, whatever those seven thunders said -- don't write a word of it."
+
+---
+
+### Revelation 10:5-8
+**WEB:** The angel whom I saw standing on the sea and on the land lifted up his right hand to the sky, and swore by him who lives forever and ever, who created heaven and the things that are in it, the earth and the things that are in it, and the sea and the things that are in it, that there will no longer be delay, but in the days of the voice of the seventh angel, when he is about to sound, then the mystery of God is finished, as he declared to his servants, the prophets. The voice which I heard from heaven, again speaking with me, said, “Go, take the book which is open in the hand of the angel who stands on the sea and on the land.”
+**Draft:** That angel, still standing there straddling sea and land, raises his right hand up to the sky and swears by the one who lives forever and ever, the one who made heaven and everything in it, earth and everything in it, the sea and everything in it -- swears there's no more waiting around, no more delay. Once the seventh angel's about to blow his horn, God's whole mystery gets wrapped up, just like he told his servants the prophets it would, fer sure. Then that voice from heaven talks to me again and says, "Go grab that little scroll, the open one in the hand of the angel standing on the sea and the land."
+
+---
+
+### Revelation 10:9-11
+**WEB:** I went to the angel, telling him to give me the little book. He said to me, “Take it, and eat it up. It will make your stomach bitter, but in your mouth it will be as sweet as honey.” I took the little book out of the angel’s hand, and ate it up. It was as sweet as honey in my mouth. When I had eaten it, my stomach was made bitter. They told me, “You must prophesy again over many peoples, nations, languages, and kings.”
+**Draft:** So I go up to the angel and ask him to hand over the little scroll. He tells me, "Go on, take it and chow down. It's gonna taste sweet as honey in your mouth, but heads up, it'll turn your stomach bitter as anything." So I took the little scroll right outta the angel's hand and ate the whole thing. Tasted honey-sweet on my tongue, just like he said -- but soon as I swallowed it, my stomach went sour and grody. Then they told me, "You gotta get back out there and prophesy again, over a whole mess of peoples, nations, languages, and kings."
+
+---

@@ -71,7 +71,7 @@ So they come outta the guys and pile into the pigs -- and check it, the whole he
 
 ### Matthew 8:33-34
 **WEB:** Those who fed them fled, and went away into the city, and told everything, including what happened to those who were possessed with demons. Behold, all the city came out to meet Jesus. When they saw him, they begged that he would depart from their borders.
-**Draft:** The pig herders straight up bail, run into town, and spill the whole bogus story, demon guys included. Next thing you know, the whole city pours out to meet Jesus. But when they see him, they don't say "party on, dude" -- nah, they beg him to eat my shorts and bounce outta their territory for good.
+**Draft:** The pig herders straight up bail, run into town, and spill the whole bogus story, demon guys included. Next thing you know, the whole city pours out to meet Jesus. But when they see him, they don't say "party on, dude" -- nah, they beg him to take a hike and bounce outta their territory for good.
 
 ---
 

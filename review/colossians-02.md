@@ -12,7 +12,7 @@
 
 ### Colossians 2:9-12
 **WEB:** For in him all the fullness of the Deity dwells bodily, and in him you are made full, who is the head of all principality and power; in whom you were also circumcised with a circumcision not made with hands, in the putting off of the body of the sins of the flesh, in the circumcision of Christ; having been buried with him in baptism, in which you were also raised with him through faith in the working of God, who raised him from the dead.
-**Draft:** 'Cause in Him, the entire fullness of God Himself lives in a real body, and in Him you're made complete too — He's the head over every ruler and power out there; in Him you got circumcised too, with a circumcision no human hands made, strippin' off your old fleshly sinful self, through Christ's own circumcision; buried with Him in baptism, and raised right back up with Him through faith in God's power, the same power that raised Him from the dead.
+**Draft:** 'Cause in Him, the whole fullness of God Himself lives in a real, bodacious body, no joke, and in Him you're made totally complete too — He's the head honcho over every ruler and power out there; in Him you got circumcised too, but not the kind human hands do — this one strips off your old grody, sinful self, through Christ's own circumcision, fer sure; buried with Him in baptism, and raised right back up with Him like a boss, through faith in God's power, the same power that raised Him from the dead.
 
 ---
 

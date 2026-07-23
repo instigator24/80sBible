@@ -56,7 +56,7 @@ to deliver those who are crushed, and to proclaim the acceptable year of the Lor
 
 ### Luke 4:29-32
 **WEB:** They rose up, threw him out of the city, and led him to the brow of the hill that their city was built on, that they might throw him off the cliff. But he, passing through the middle of them, went his way. He came down to Capernaum, a city of Galilee. He was teaching them on the Sabbath day, and they were astonished at his teaching, for his word was with authority.
-**Draft:** They shot up outta their seats, dragged him right outta town, and hauled him to the edge of the cliff their city was built on top of, all set to chuck him off it. Way harsh, no lie -- his own hometown. But Jesus just walked straight through the middle of that whole mob, cool as anything, and kept on going. He headed down to Capernaum, a town in Galilee, and started teaching there on the Sabbath. The crowd was stunned, 'cause his words hit different -- there was real authority behind everything he said.
+**Draft:** They shot up outta their seats, dragged him right outta town, and hauled him to the edge of the cliff their city was built on top of, all set to chuck him off it. Way harsh, no lie -- his own hometown. But Jesus just walked straight through the middle of that whole mob, cool as anything, and kept on going. He headed down to Capernaum, a town in Galilee, and started teaching there on the Sabbath. The crowd was stunned, 'cause his words packed some serious punch -- there was real authority behind everything he said.
 
 ---
 

@@ -48,7 +48,7 @@ Her mom said, "The head of John the Baptizer."
 
 ### Mark 6:25-28
 **WEB:** She came in immediately with haste to the king, and asked, “I want you to give me right now the head of John the Baptizer on a platter.” The king was exceedingly sorry, but for the sake of his oaths, and of his dinner guests, he didn’t wish to refuse her. Immediately the king sent out a soldier of his guard, and commanded to bring John’s head, and he went and beheaded him in the prison, and brought his head on a platter, and gave it to the young lady; and the young lady gave it to her mother.
-**Draft:** She rushed back in to the king right away and said, "I want you to give me the head of John the Baptizer on a platter, right now." The king was crushed inside, but 'cause of his oath and his guests sitting there, he didn't want to go back on his word. So he sent a guard out immediately with orders to bring John's head, and the guard went and beheaded him in the prison, brought his head out on a platter, and handed it to the girl -- and the girl gave it to her mother. There's nothing to celebrate here -- straight up tragic.
+**Draft:** She rushed back in to the king right away and said, "I want you to give me the head of John the Baptizer on a platter, right now." The king was crushed inside, but 'cause of his oath and his guests sitting there, he didn't want to go back on his word. So he sent a guard out immediately with orders to bring John's head, and the guard went and beheaded him in the prison, brought his head out on a platter, and handed it to the girl -- and the girl gave it to her mother. Way harsh, no lie -- straight-up bogus way for a righteous dude to go out.
 
 ---
 

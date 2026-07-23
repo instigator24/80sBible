@@ -12,50 +12,27 @@ import os
 
 import requests
 
-BIBLE_API_URL = "https://bible-api.com/{book}+{chapter}?translation=web"
-BIBLE_API_VERSE_URL = "https://bible-api.com/{book}+{chapter}:{verse}?translation=web"
+BIBLE_API_URL = (
+    "https://bible-api.com/{book}+{chapter}"
+    "?translation=web&single_chapter_book_matching=indifferent"
+)
 PASSAGE_SIZE = 4  # target verses per chunk (last chunk in a chapter may be smaller)
 
 
 def fetch_chapter(book: str, chapter: int) -> list:
     """Fetch all verses in a chapter, returning a list of {"verse": n, "text": ...}.
 
-    bible-api.com's "book+chapter" shorthand misparses some short/single-chapter
-    books (e.g. "3 John") and returns just one verse instead of the whole
-    chapter. Detect that by fetching verse-by-verse instead whenever the
-    chapter-level fetch comes back with only 1 verse but more plausibly
-    exist (verified by probing verse 2).
+    For single-chapter books (Obadiah, Philemon, 2 John, 3 John, Jude),
+    bible-api.com's "book+chapter" shorthand is ambiguous between "chapter 1"
+    and "verse 1" and defaults to verse 1 only. The
+    single_chapter_book_matching=indifferent param (per bible-api.com's docs)
+    makes it always return the whole chapter, avoiding that ambiguity for
+    every book uniformly.
     """
     resp = requests.get(BIBLE_API_URL.format(book=book, chapter=chapter), timeout=30)
     resp.raise_for_status()
     data = resp.json()
-    verses = data["verses"]
-
-    if len(verses) == 1:
-        probe = requests.get(
-            BIBLE_API_VERSE_URL.format(book=book, chapter=chapter, verse=2),
-            timeout=30,
-        )
-        if probe.ok and "error" not in probe.json():
-            return _fetch_chapter_verse_by_verse(book, chapter)
-
-    return verses
-
-
-def _fetch_chapter_verse_by_verse(book: str, chapter: int) -> list:
-    verses = []
-    verse = 1
-    while True:
-        resp = requests.get(
-            BIBLE_API_VERSE_URL.format(book=book, chapter=chapter, verse=verse),
-            timeout=30,
-        )
-        data = resp.json()
-        if "error" in data:
-            break
-        verses.append(data["verses"][0])
-        verse += 1
-    return verses
+    return data["verses"]
 
 
 def chunk_verses(verses: list) -> list:

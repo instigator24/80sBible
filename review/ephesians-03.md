@@ -30,4 +30,4 @@
 
 ### Ephesians 3:21-21
 **WEB:** to him be the glory in the assembly and in Christ Jesus to all generations forever and ever. Amen.
-**Draft:** to Him be the glory, in the church and in Christ Jesus, to every generation, forever and ever. Amen.
+**Draft:** So all the glory goes to Him, no lie — right there in the church and in Christ Jesus, generation after generation, forever and ever. Amen.

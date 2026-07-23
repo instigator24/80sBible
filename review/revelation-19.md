@@ -1,0 +1,35 @@
+### Revelation 19:1-4
+**WEB:** After these things I heard something like a loud voice of a great multitude in heaven, saying, “Hallelujah! Salvation, power, and glory belong to our God: for true and righteous are his judgments. For he has judged the great prostitute, who corrupted the earth with her sexual immorality, and he has avenged the blood of his servants at her hand.” A second said, “Hallelujah! Her smoke goes up forever and ever.” The twenty-four elders and the four living creatures fell down and worshiped God who sits on the throne, saying, “Amen! Hallelujah!”
+**Draft:** After all that, I heard what sounded like this epic, roaring voice of a massive crowd up in heaven, shouting, "Hallelujah! Salvation, power, and glory all belong to our God -- his judgments are true and righteous, no lie. He judged that grody great hooker who trashed the whole earth with her sexual sin, and he's paid her back for the blood of his own servants she had on her hands." Then a second voice went, "Hallelujah! Her smoke's gonna rise up forever and ever, no end in sight." And the twenty-four elders and the four living creatures dropped flat and worshiped God sitting on his throne, shouting, "Amen! Hallelujah!"
+
+---
+
+### Revelation 19:5-8
+**WEB:** A voice came from the throne, saying, “Give praise to our God, all you his servants, you who fear him, the small and the great!” I heard something like the voice of a great multitude, and like the voice of many waters, and like the voice of mighty thunders, saying, “Hallelujah! For the Lord our God, the Almighty, reigns! Let us rejoice and be exceedingly glad, and let us give the glory to him. For the marriage of the Lamb has come, and his wife has made herself ready.” It was given to her that she would array herself in bright, pure, fine linen: for the fine linen is the righteous acts of the saints.
+**Draft:** A voice rang out from the throne, going, "Give it up for our God, all you his servants, everybody who's got respect for him, small and great alike!" Then I heard something like the roar of a huge crowd, mixed with the sound of crashing waters, mixed with rolling thunder, all shouting, "Hallelujah! The Lord our God, the Almighty, is straight-up ruling! Let's party on and be totally stoked, and give him all the glory, 'cause the wedding of the Lamb has finally arrived, and his bride's gotten herself all decked out and ready." She got handed this bright, pure, fine linen to wear -- and that fine linen is nothing less than the righteous stuff the saints have actually done.
+
+---
+
+### Revelation 19:9-12
+**WEB:** He said to me, “Write, ‘Blessed are those who are invited to the marriage supper of the Lamb.’” He said to me, “These are true words of God.” I fell down before his feet to worship him. He said to me, “Look! Don’t do it! I am a fellow bondservant with you and with your brothers who hold the testimony of Jesus. Worship God, for the testimony of Jesus is the Spirit of Prophecy.” I saw the heaven opened, and behold, a white horse, and he who sat on it is called Faithful and True. In righteousness he judges and makes war. His eyes are a flame of fire, and on his head are many crowns. He has names written and a name written which no one knows but he himself.
+**Draft:** Then he tells me, "Write this down: 'Blessed are the ones invited to the marriage supper of the Lamb.'" And he goes, "These words are the real deal, straight from God." I dropped down at his feet right then to worship him, but he stops me, "Whoa, hold up! Don't do that! I'm just a fellow servant, same as you and your brothers who carry the testimony of Jesus. Worship God -- 'cause the testimony of Jesus is what the Spirit of Prophecy's all about." Then I saw heaven crack wide open, and check this out -- a white horse, and the one riding it is called Faithful and True. He judges and makes war in total righteousness. His eyes are blazing like flames of fire, and he's got a whole stack of crowns piled on his head. He's got names written on him, plus one name that nobody knows but him.
+
+---
+
+### Revelation 19:13-16
+**WEB:** He is clothed in a garment sprinkled with blood. His name is called “The Word of God.” The armies which are in heaven followed him on white horses, clothed in white, pure, fine linen. Out of his mouth proceeds a sharp, double-edged sword, that with it he should strike the nations. He will rule them with an iron rod. He treads the wine press of the fierceness of the wrath of God, the Almighty. He has on his garment and on his thigh a name written, “KING OF KINGS, AND LORD OF LORDS.”
+**Draft:** He's wrapped in a robe sprinkled with blood, and his name is called "The Word of God." All the armies of heaven were riding right behind him on white horses, dressed in white, pure, fine linen, looking totally righteous. Out of his mouth comes a sharp double-edged sword, ready to strike down the nations with it. He's gonna rule 'em with an iron rod, no arguing. He's the one stomping out the winepress of the fierce wrath of God Almighty. And across his robe and down his thigh there's a name written: "KING OF KINGS, AND LORD OF LORDS."
+
+---
+
+### Revelation 19:17-20
+**WEB:** I saw an angel standing in the sun. He cried with a loud voice, saying to all the birds that fly in the sky, “Come! Be gathered together to the great supper of God, that you may eat the flesh of kings, the flesh of captains, the flesh of mighty men, and the flesh of horses and of those who sit on them, and the flesh of all men, both free and slave, small and great.” I saw the beast, and the kings of the earth, and their armies, gathered together to make war against him who sat on the horse, and against his army. The beast was taken, and with him the false prophet who worked the signs in his sight, with which he deceived those who had received the mark of the beast and those who worshiped his image. These two were thrown alive into the lake of fire that burns with sulfur.
+**Draft:** Then I saw an angel standing right in the sun, hollering out to every bird flying up in the sky, "Get over here! Gather up for God's great supper, so you can chow down on the flesh of kings, the flesh of captains, the flesh of mighty men, the flesh of horses and their riders, and the flesh of everybody -- free or slave, small or great." Then I saw the beast, and the kings of the earth, and their whole armies, all gathered up to go to war against the rider on the horse and his army. But the beast got captured, and right along with him the false prophet who'd pulled all those fake signs to deceive everybody who took the mark of the beast and worshiped his image -- both of 'em got tossed alive, straight into the lake of fire burning with sulfur.
+
+---
+
+### Revelation 19:21-21
+**WEB:** The rest were killed with the sword of him who sat on the horse, the sword which came out of his mouth. All the birds were filled with their flesh.
+**Draft:** As for everybody else, they got taken out by the sword of the rider on the horse, the very sword that came outta his own mouth. And every bird up there got its fill of their flesh.
+
+---

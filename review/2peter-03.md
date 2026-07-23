@@ -1,0 +1,27 @@
+### 2 Peter 3:1-4
+**WEB:** This is now, beloved, the second letter that I have written to you; and in both of them I stir up your sincere mind by reminding you; that you should remember the words which were spoken before by the holy prophets, and the commandment of us, the apostles of the Lord and Savior: knowing this first, that in the last days mockers will come, walking after their own lusts, and saying, “Where is the promise of his coming? For, from the day that the fathers fell asleep, all things continue as they were from the beginning of the creation.”
+**Draft:** This is the second letter I've written you now, beloved, and in both of 'em I'm stirrin' up your genuine mind by remindin' you — so you'd remember the words the holy prophets spoke before, and the commandment from us, the apostles of the Lord and Savior. Know this first: mockers are gonna show up in the last days, chasin' their own cravings, sayin', "Where's this promise about Him comin' back? 'Cause ever since our ancestors died, everything's kept right on truckin' along same as it did from the very start of creation."
+
+---
+
+### 2 Peter 3:5-8
+**WEB:** For this they willfully forget, that there were heavens from of old, and an earth formed out of water and amid water, by the word of God; by which means the world that then was, being overflowed with water, perished. But the heavens that now exist, and the earth, by the same word have been stored up for fire, being reserved against the day of judgment and destruction of ungodly men. But don’t forget this one thing, beloved, that one day is with the Lord as a thousand years, and a thousand years as one day.
+**Draft:** They conveniently forget that the heavens existed way back, and the earth got formed outta water and surrounded by water, all through God's word — and that same water flooded the world back then and wiped it out. But the heavens and earth we got right now, that same word's got 'em saved up for fire, held in reserve for judgment day and the destruction of ungodly folks. But don't forget this one thing, beloved: to the Lord, one day's like a thousand years, and a thousand years is like one day.
+
+---
+
+### 2 Peter 3:9-12
+**WEB:** The Lord is not slow concerning his promise, as some count slowness; but is patient with us, not wishing that any should perish, but that all should come to repentance. But the day of the Lord will come as a thief in the night; in which the heavens will pass away with a great noise, and the elements will be dissolved with fervent heat, and the earth and the works that are in it will be burned up. Therefore since all these things will be destroyed like this, what kind of people ought you to be in holy living and godliness, looking for and earnestly desiring the coming of the day of God, which will cause the burning heavens to be dissolved, and the elements will melt with fervent heat?
+**Draft:** The Lord's not slow about His promise, even though some folks count it as slowness — He's just bein' patient with us, not wantin' nobody to perish, but wantin' everybody to come to repentance. But the Lord's day's gonna show up like a thief in the night, when the heavens are gonna vanish with a huge crash, the elements are gonna melt down in blazin' heat, and the earth and everything in it's gonna get torched. So since all this stuff's gonna get destroyed like that, what kinda people oughta you be, livin' holy and godly, lookin' forward to and achin' for the day of God to come, when the burnin' heavens dissolve and the elements melt in that blazin' heat?
+
+---
+
+### 2 Peter 3:13-16
+**WEB:** But, according to his promise, we look for new heavens and a new earth, in which righteousness dwells. Therefore, beloved, seeing that you look for these things, be diligent to be found in peace, without defect and blameless in his sight. Regard the patience of our Lord as salvation; even as our beloved brother Paul also, according to the wisdom given to him, wrote to you; as also in all of his letters, speaking in them of these things. In those, there are some things that are hard to understand, which the ignorant and unsettled twist, as they also do to the other Scriptures, to their own destruction.
+**Draft:** But accordin' to His promise, we're lookin' ahead to new heavens and a new earth, where righteousness lives. So, beloved, seein' as you're lookin' forward to this stuff, hustle to get found in peace, spotless and blameless in His sight. Count our Lord's patience as salvation — same as our beloved brother Paul wrote you too, accordin' to the wisdom he got handed, and same in all his other letters, talkin' about this same stuff. There's some parts in there that are hard to get, which ignorant, unstable folks twist up, same as they do with the rest of Scripture, to their own destruction.
+
+---
+
+### 2 Peter 3:17-18
+**WEB:** You therefore, beloved, knowing these things beforehand, beware, lest being carried away with the error of the wicked, you fall from your own steadfastness. But grow in the grace and knowledge of our Lord and Savior Jesus Christ. To him be the glory both now and forever. Amen.
+**Draft:** So you, beloved, knowin' all this stuff ahead of time, watch out, so you don't get swept up in the wicked's bogus errors and fall from your own solid footing. Instead, grow in the grace and knowledge of our Lord and Savior Jesus Christ. To Him be the glory, both now and forever. Amen.

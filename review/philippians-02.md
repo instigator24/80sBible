@@ -24,7 +24,7 @@
 
 ### Philippians 2:17-20
 **WEB:** Yes, and if I am poured out on the sacrifice and service of your faith, I rejoice, and rejoice with you all. In the same way, you also rejoice, and rejoice with me. But I hope in the Lord Jesus to send Timothy to you soon, that I also may be cheered up when I know how you are doing. For I have no one else like-minded, who will truly care about you.
-**Draft:** Yeah, and even if I get poured out like a drink offerin' on top of your faith's sacrifice and service, I'm stoked about it, stoked right along with all of you. Same deal, you should be stoked too, stoked with me. I'm hopin' in the Lord Jesus to send Timothy your way real soon, so I can get cheered up too once I hear how you're doin'. 'Cause I don't got nobody else on the same wavelength who's gonna genuinely care about you like he does.
+**Draft:** Yeah, and even if I get poured out like a drink offerin' on top of your faith's sacrifice and service, I'm stoked about it, psyched right along with all of you. Same deal, you oughta be stoked too, fired up with me. I'm hopin' in the Lord Jesus to send Timothy your way real soon, so I can get cheered up too once I hear how you're doin'. 'Cause I don't got nobody else on the same wavelength who's gonna genuinely care about you like he does.
 
 ---
 

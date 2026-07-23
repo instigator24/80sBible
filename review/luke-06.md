@@ -79,7 +79,7 @@ Set free,
 and you will be set free. “Give, and it will be given to you: good measure, pressed down, shaken together, and running over, will be given to you.
 For with the same measure you measure it will be measured back to you.” He spoke a parable to them.
 “Can the blind guide the blind? Won’t they both fall into a pit? A disciple is not above his teacher, but everyone when he is fully trained will be like his teacher.
-**Draft:** "Don't judge, and nobody's gonna judge you back. Don't condemn people, and you won't get condemned. Cut people loose, and you'll get cut loose too. Give stuff away, and it's comin' right back atcha -- good measure, packed down tight, shaken up, spillin' over the top, straight into your lap. Whatever measure you're dishin' out, that's the same measure you're gettan' handed back." Then He drops a parable on 'em: "Can a blind dude lead another blind dude around? Won't they both just faceplant into a ditch? A student's not above his teacher, dudes -- but once you're fully trained up, you'll be just like your teacher."
+**Draft:** "Don't judge, and nobody's gonna judge you back. Don't condemn people, and you won't get condemned. Cut people loose, and you'll get cut loose too. Give stuff away, and it's comin' right back atcha -- good measure, packed down tight, shaken up, spillin' over the top, straight into your lap. Whatever measure you're dishin' out, that's the same measure you're gettin' handed back." Then He drops a parable on 'em: "Can a blind dude lead another blind dude around? Won't they both just faceplant into a ditch? A student's not above his teacher, dudes -- but once you're fully trained up, you'll be just like your teacher."
 
 ---
 

@@ -1,0 +1,41 @@
+### Revelation 21:1-4
+**WEB:** I saw a new heaven and a new earth: for the first heaven and the first earth have passed away, and the sea is no more. I saw the holy city, New Jerusalem, coming down out of heaven from God, prepared like a bride adorned for her husband. I heard a loud voice out of heaven saying, “Behold, God’s dwelling is with people, and he will dwell with them, and they will be his people, and God himself will be with them as their God. He will wipe away every tear from their eyes. Death will be no more; neither will there be mourning, nor crying, nor pain, any more. The first things have passed away.”
+**Draft:** Then I saw a brand-new heaven and a brand-new earth -- totally epic, 'cause the first heaven and first earth had straight-up passed away, and the sea was gone, no more. I saw the holy city, the New Jerusalem, coming down outta heaven from God, dolled up gorgeous like a bride all decked out for her husband on the big day. Then I heard this huge voice booming outta heaven: "Check it out -- God's home is with people now, and he's gonna live with 'em, and they'll be his people, and God himself is gonna be right there with 'em as their God. He's gonna wipe away every single tear from their eyes. No more death, ever. No more mourning, no more crying, no more pain -- all that old stuff has totally passed away."
+
+---
+
+### Revelation 21:5-8
+**WEB:** He who sits on the throne said, “Behold, I am making all things new.” He said, “Write, for these words of God are faithful and true.” He said to me, “I have become the Alpha and the Omega, the Beginning and the End. I will give freely to him who is thirsty from the spring of the water of life. He who overcomes, I will give him these things. I will be his God, and he will be my son. But for the cowardly, unbelieving, sinners, abominable, murderers, sexually immoral, sorcerers, idolaters, and all liars, their part is in the lake that burns with fire and sulfur, which is the second death.”
+**Draft:** The one sitting on the throne said, "Check it out -- I'm making everything new, righteous and fresh, top to bottom." Then he told me, "Write this down, 'cause these words of God are faithful and true, fer sure." He said to me, "I'm the Alpha and the Omega, the Beginning and the End. Whoever's thirsty, I'll hook 'em up for free, straight from the spring of the water of life. Whoever comes out on top gets all this -- I'll be their God, and they'll be my kid. But for the cowards, the ones who never believed, the sinners, the grody, the murderers, the sexually immoral, the sorcerers, the idol-worshipers, and every liar out there -- their spot is in that lake burning with fire and sulfur, which is the second death. That's bogus for real, and there's no talking your way outta it."
+
+---
+
+### Revelation 21:9-12
+**WEB:** One of the seven angels who had the seven bowls, who were loaded with the seven last plagues came, and he spoke with me, saying, “Come here. I will show you the wife, the Lamb’s bride.” He carried me away in the Spirit to a great and high mountain, and showed me the holy city, Jerusalem, coming down out of heaven from God, having the glory of God. Her light was like a most precious stone, as if it were a jasper stone, clear as crystal; having a great and high wall; having twelve gates, and at the gates twelve angels; and names written on them, which are the names of the twelve tribes of the children of Israel.
+**Draft:** One of the seven angels holding the seven bowls loaded up with the seven last plagues came over and said to me, "Come on, I'll show you the wife, the Lamb's bride." He swept me up in the Spirit to this huge, towering mountain and showed me the holy city, Jerusalem, coming down outta heaven from God, glowing with the glory of God -- totally psychedelic. Her light shone like the most precious stone you ever saw, like jasper, clear as crystal. She had a great big high wall around her, with twelve gates, and twelve angels posted at those gates, and names written on 'em -- the names of the twelve tribes of Israel.
+
+---
+
+### Revelation 21:13-16
+**WEB:** On the east were three gates; and on the north three gates; and on the south three gates; and on the west three gates. The wall of the city had twelve foundations, and on them twelve names of the twelve Apostles of the Lamb. He who spoke with me had for a measure a golden reed to measure the city, its gates, and its walls. The city is square, and its length is as great as its width. He measured the city with the reed, twelve thousand twelve stadia. Its length, width, and height are equal.
+**Draft:** Three gates faced east, three faced north, three faced south, and three faced west. The city wall had twelve foundations, and on those foundations were the twelve names of the twelve Apostles of the Lamb. The angel talking with me had this golden reed for measuring the city, its gates, and its walls. The city's laid out square, length and width dead even. He measured it out with the reed -- twelve thousand stadia, epic proportions -- and the length, width, and height all matched up perfect.
+
+---
+
+### Revelation 21:17-20
+**WEB:** Its wall is one hundred forty-four cubits, by the measure of a man, that is, of an angel. The construction of its wall was jasper. The city was pure gold, like pure glass. The foundations of the city’s wall were adorned with all kinds of precious stones. The first foundation was jasper; the second, sapphire; the third, chalcedony; the fourth, emerald; the fifth, sardonyx; the sixth, sardius; the seventh, chrysolite; the eighth, beryl; the ninth, topaz; the tenth, chrysoprasus; the eleventh, jacinth; and the twelfth, amethyst.
+**Draft:** The wall measured out at a hundred forty-four cubits, using regular human measurements, which the angel happened to be using too. The wall itself was built outta jasper, and the city was pure gold, so clear it looked like glass -- straight-up psychedelic, no lie. The wall's foundations were decked out with every kind of precious stone you could dream up: the first foundation jasper, the second sapphire, the third chalcedony, the fourth emerald, the fifth sardonyx, the sixth sardius, the seventh chrysolite, the eighth beryl, the ninth topaz, the tenth chrysoprasus, the eleventh jacinth, and the twelfth amethyst. Even a whole drawer full of neon and Swatch watches couldn't touch that color show.
+
+---
+
+### Revelation 21:21-24
+**WEB:** The twelve gates were twelve pearls. Each one of the gates was made of one pearl. The street of the city was pure gold, like transparent glass. I saw no temple in it, for the Lord God, the Almighty, and the Lamb, are its temple. The city has no need for the sun, neither of the moon, to shine, for the very glory of God illuminated it, and its lamp is the Lamb. The nations will walk in its light. The kings of the earth bring the glory and honor of the nations into it.
+**Draft:** The twelve gates were twelve pearls, each gate carved outta one single pearl -- can you even picture that? The main street was pure gold, so clear it was practically see-through glass. I didn't spot a temple anywhere in the whole city, 'cause the Lord God Almighty and the Lamb, they're the temple, plain and simple. The city doesn't need the sun or the moon to light it up, 'cause God's own glory is the light source, and the Lamb is the lamp. The nations are gonna walk around in that light, and the kings of the earth bring all their glory and honor right on in.
+
+---
+
+### Revelation 21:25-27
+**WEB:** Its gates will in no way be shut by day (for there will be no night there), and they shall bring the glory and the honor of the nations into it so that they may enter. There will in no way enter into it anything profane, or one who causes an abomination or a lie, but only those who are written in the Lamb’s book of life.
+**Draft:** The gates never shut, not once, all day long -- and there's no night there anyway, so it doesn't even matter. They keep bringing the glory and honor of the nations right in through those gates. But nothing profane's ever getting in there, nobody who deals in grody stuff or lies -- only the ones whose names are written in the Lamb's book of life get through the door.
+
+---

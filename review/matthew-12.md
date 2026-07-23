@@ -9,7 +9,7 @@
 ### Matthew 12:5-8
 **WEB:** Or have you not read in the law, that on the Sabbath day, the priests in the temple profane the Sabbath, and are guiltless? But I tell you that one greater than the temple is here. But if you had known what this means, ‘I desire mercy, and not sacrifice,’
 you wouldn’t have condemned the guiltless. For the Son of Man is Lord of the Sabbath.”
-**Draft:** you wouldn't be draggin' innocent dudes through the mud like this. Get a clue: the Son of Man is the boss of the Sabbath, not the other way around."
+**Draft:** "And haven't you clowns read in the law how the priests up in the temple totally break the Sabbath every week and nobody calls 'em out on it? But I'm tellin' you, somebody bigger than the temple is standing right here. And if you'd actually gotten what this means -- 'I want mercy, not some sacrifice routine' -- you wouldn't be draggin' innocent dudes through the mud like this. Get a clue: the Son of Man is the boss of the Sabbath, not the other way around."
 
 ---
 

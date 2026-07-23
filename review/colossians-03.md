@@ -24,7 +24,7 @@
 
 ### Colossians 3:17-20
 **WEB:** Whatever you do, in word or in deed, do all in the name of the Lord Jesus, giving thanks to God the Father, through him. Wives, be in subjection to your husbands, as is fitting in the Lord. Husbands, love your wives, and don’t be bitter against them. Children, obey your parents in all things, for this pleases the Lord.
-**Draft:** Whatever you do, whether it's somethin' you say or somethin' you do, do it all in the name of the Lord Jesus, givin' thanks to God the Father through Him. Wives, yield to your husbands, however that fits in the Lord. Husbands, love your wives, and don't get bitter toward 'em. Kids, obey your parents in everything, 'cause that's what pleases the Lord.
+**Draft:** Whatever you do, whether it's somethin' you say or somethin' you do, do it all up totally in the name of the Lord Jesus, givin' thanks to God the Father through Him. Wives, yield to your husbands, however that's fittin' in the Lord, fer sure. Husbands, love your wives for real, and don't get bitter or harsh toward 'em. Kids, obey your parents in everything, no buts about it, 'cause that's exactly what pleases the Lord.
 
 ---
 

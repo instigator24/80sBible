@@ -56,7 +56,7 @@ They told him, “Seven.”
 **WEB:** He said to them,
 “But who do you say that I am?”
 Peter answered, “You are the Christ.” He commanded them that they should tell no one about him. He began to teach them that the Son of Man must suffer many things, and be rejected by the elders, the chief priests, and the scribes, and be killed, and after three days rise again. He spoke to them openly. Peter took him, and began to rebuke him.
-**Draft:** He asks 'em straight up, "But who do you dudes say I am?" Peter answers, "You are the Christ." No jokin' around here -- this one's for real. Jesus tells them not to breathe a word about it to anybody. Then he starts layin' it out plain: the Son of Man's gotta suffer somethin' fierce, get rejected by the elders, chief priests, and scribes, get killed, and rise up again after three days. He said it straight out, no riddles. Peter pulls him aside and starts layin' into him about it.
+**Draft:** He asks 'em straight up, "But who do you dudes say I am?" Peter answers, "You are the Christ," dead serious, no joke. Jesus tells them not to breathe a word about it to anybody. Then he starts layin' it out plain: the Son of Man's gotta suffer somethin' fierce, get rejected by the elders, chief priests, and scribes, get killed, and rise up again after three days. He said it straight out, no riddles. Peter pulls him aside and starts layin' into him about it.
 
 ---
 
