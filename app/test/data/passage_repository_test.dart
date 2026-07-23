@@ -82,5 +82,37 @@ void main() {
       final repo = PassageRepository.fromJsonList([]);
       expect(repo.passagesForChapterRange('Genesis', 1, 2), isEmpty);
     });
+
+    test('returns empty when the book has content but none in the requested range', () {
+      final repo = PassageRepository.fromJsonList([
+        {
+          'book': 'Genesis', 'chapter': 1, 'verse_start': 1, 'verse_end': 31,
+          'web_text': 'a', 'slang_text': 'A',
+        },
+        {
+          'book': 'Genesis', 'chapter': 5, 'verse_start': 1, 'verse_end': 32,
+          'web_text': 'e', 'slang_text': 'E',
+        },
+      ]);
+
+      expect(repo.passagesForChapterRange('Genesis', 2, 4), isEmpty);
+    });
+
+    test('a single-chapter range (chapterStart == chapterEnd) returns that chapter sorted by verse', () {
+      final repo = PassageRepository.fromJsonList([
+        {
+          'book': 'Genesis', 'chapter': 1, 'verse_start': 5, 'verse_end': 13,
+          'web_text': 'b', 'slang_text': 'B',
+        },
+        {
+          'book': 'Genesis', 'chapter': 1, 'verse_start': 1, 'verse_end': 4,
+          'web_text': 'a', 'slang_text': 'A',
+        },
+      ]);
+
+      final passages = repo.passagesForChapterRange('Genesis', 1, 1);
+      expect(passages.map((p) => p.chapter).toList(), [1, 1]);
+      expect(passages.map((p) => p.verseStart).toList(), [1, 5]);
+    });
   });
 }
