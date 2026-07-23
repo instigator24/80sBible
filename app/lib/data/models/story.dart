@@ -46,10 +46,11 @@ class Story {
   factory Story.fromJson(Map<String, dynamic> json) {
     return Story(
       id: json['id'] as int,
-      testament:
-          (json['testament'] as String) == 'old'
-              ? Testament.oldTestament
-              : Testament.newTestament,
+      testament: switch (json['testament'] as String) {
+        'old' => Testament.oldTestament,
+        'new' => Testament.newTestament,
+        final other => throw ArgumentError('Unknown testament: $other'),
+      },
       title: json['title'] as String,
       referenceDisplay: json['reference_display'] as String,
       summary: json['summary'] as String,

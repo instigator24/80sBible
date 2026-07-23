@@ -64,5 +64,45 @@ void main() {
       expect(story.references[0].book, 'Luke');
       expect(story.references[1].book, 'Matthew');
     });
+
+    test('throws on an unexpected testament value', () {
+      expect(
+        () => Story.fromJson({
+          'id': 2,
+          'testament': 'bogus',
+          'title': 'Some Story',
+          'reference_display': 'Genesis 1:1',
+          'summary': 'A summary.',
+          'references': <Map<String, dynamic>>[],
+        }),
+        throwsArgumentError,
+      );
+    });
+
+    test('parses a single-chapter reference', () {
+      final story = Story.fromJson({
+        'id': 3,
+        'testament': 'old',
+        'title': 'A Short Story',
+        'reference_display': 'Genesis 4:1-16',
+        'summary': 'Cain and Abel.',
+        'references': [
+          {
+            'book': 'Genesis',
+            'chapter_start': 4,
+            'verse_start': 1,
+            'chapter_end': 4,
+            'verse_end': 16,
+          },
+        ],
+      });
+
+      expect(story.references.first.chapterStart, 4);
+      expect(story.references.first.chapterEnd, 4);
+      expect(
+        story.references.first.chapterStart,
+        story.references.first.chapterEnd,
+      );
+    });
   });
 }
