@@ -4,6 +4,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import 'data/bible_books.dart';
 import 'data/passage_repository.dart';
+import 'data/story_repository.dart';
 import 'logic/bookmarks_provider.dart';
 import 'logic/theme_provider.dart';
 import 'ui/bookmarks/bookmarks_screen.dart';
@@ -11,6 +12,7 @@ import 'ui/home/home_screen.dart';
 import 'ui/reader/reader_screen.dart';
 import 'ui/search/search_screen.dart';
 import 'ui/settings/settings_screen.dart';
+import 'ui/stories/stories_screen.dart';
 import 'ui/theme/app_theme.dart';
 import 'ui/theme/theme_decoration.dart';
 
@@ -18,19 +20,28 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   final prefs = await SharedPreferences.getInstance();
   final repository = await PassageRepository.loadFromAssets(kBookAssetPaths);
+  final storyRepository = await StoryRepository.loadFromAssets(kStoriesAssetPath);
 
   runApp(
     ProviderScope(
       overrides: [sharedPreferencesProvider.overrideWithValue(prefs)],
-      child: SlangBibleApp(repository: repository),
+      child: SlangBibleApp(
+        repository: repository,
+        storyRepository: storyRepository,
+      ),
     ),
   );
 }
 
 class SlangBibleApp extends ConsumerWidget {
   final PassageRepository repository;
+  final StoryRepository storyRepository;
 
-  const SlangBibleApp({super.key, required this.repository});
+  const SlangBibleApp({
+    super.key,
+    required this.repository,
+    required this.storyRepository,
+  });
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -39,15 +50,20 @@ class SlangBibleApp extends ConsumerWidget {
     return MaterialApp(
       title: 'Slang Bible',
       theme: buildTheme(themeId),
-      home: RootShell(repository: repository),
+      home: RootShell(repository: repository, storyRepository: storyRepository),
     );
   }
 }
 
 class RootShell extends ConsumerStatefulWidget {
   final PassageRepository repository;
+  final StoryRepository storyRepository;
 
-  const RootShell({super.key, required this.repository});
+  const RootShell({
+    super.key,
+    required this.repository,
+    required this.storyRepository,
+  });
 
   @override
   ConsumerState<RootShell> createState() => _RootShellState();
@@ -85,6 +101,10 @@ class _RootShellState extends ConsumerState<RootShell> {
       ),
       SearchScreen(repository: widget.repository, onOpenPassage: _openInReader),
       const SettingsScreen(),
+      StoriesScreen(
+        storyRepository: widget.storyRepository,
+        passageRepository: widget.repository,
+      ),
     ];
 
     return Scaffold(
@@ -104,6 +124,7 @@ class _RootShellState extends ConsumerState<RootShell> {
           NavigationDestination(icon: Icon(Icons.star), label: 'Bookmarks'),
           NavigationDestination(icon: Icon(Icons.search), label: 'Search'),
           NavigationDestination(icon: Icon(Icons.palette), label: 'Settings'),
+          NavigationDestination(icon: Icon(Icons.auto_stories), label: 'Stories'),
         ],
       ),
     );
