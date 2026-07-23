@@ -40,7 +40,7 @@ Future<void> _pump(WidgetTester tester) async {
       child: MaterialApp(
         home: Scaffold(
           body: StoriesScreen(
-            repository: _repo(),
+            storyRepository: _repo(),
             passageRepository: PassageRepository.fromJsonList([]),
           ),
         ),

@@ -6,12 +6,12 @@ import '../../data/story_repository.dart';
 import 'story_detail_screen.dart';
 
 class StoriesScreen extends StatefulWidget {
-  final StoryRepository repository;
+  final StoryRepository storyRepository;
   final PassageRepository passageRepository;
 
   const StoriesScreen({
     super.key,
-    required this.repository,
+    required this.storyRepository,
     required this.passageRepository,
   });
 
@@ -39,7 +39,7 @@ class _StoriesScreenState extends State<StoriesScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final stories = widget.repository.forTestament(_testament);
+    final stories = widget.storyRepository.forTestament(_testament);
 
     return Column(
       children: [
