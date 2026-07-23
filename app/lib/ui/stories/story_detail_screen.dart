@@ -6,12 +6,12 @@ import '../reader/passage_card.dart';
 
 class StoryDetailScreen extends StatelessWidget {
   final Story story;
-  final PassageRepository repository;
+  final PassageRepository passageRepository;
 
   const StoryDetailScreen({
     super.key,
     required this.story,
-    required this.repository,
+    required this.passageRepository,
   });
 
   @override
@@ -28,7 +28,7 @@ class StoryDetailScreen extends StatelessWidget {
         body: TabBarView(
           children: [
             _SummaryTab(story: story),
-            _VersesTab(story: story, repository: repository),
+            _VersesTab(story: story, passageRepository: passageRepository),
           ],
         ),
       ),
@@ -62,9 +62,9 @@ class _SummaryTab extends StatelessWidget {
 
 class _VersesTab extends StatelessWidget {
   final Story story;
-  final PassageRepository repository;
+  final PassageRepository passageRepository;
 
-  const _VersesTab({required this.story, required this.repository});
+  const _VersesTab({required this.story, required this.passageRepository});
 
   @override
   Widget build(BuildContext context) {
@@ -77,7 +77,7 @@ class _VersesTab extends StatelessWidget {
   }
 
   Widget _rangeWidget(StoryReferenceRange range, int index) {
-    final passages = repository.passagesForChapterRange(
+    final passages = passageRepository.passagesForChapterRange(
       range.book,
       range.chapterStart,
       range.chapterEnd,

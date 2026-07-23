@@ -29,7 +29,7 @@ Future<void> _pump(
     ProviderScope(
       overrides: [sharedPreferencesProvider.overrideWithValue(prefs)],
       child: MaterialApp(
-        home: StoryDetailScreen(story: story, repository: repository),
+        home: StoryDetailScreen(story: story, passageRepository: repository),
       ),
     ),
   );
@@ -71,7 +71,7 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.text('slang text'), findsOneWidget);
-    expect(find.byKey(const Key('not-translated-message')), findsNothing);
+    expect(find.text('Not translated yet'), findsNothing);
   });
 
   testWidgets('Verses tab shows "Not translated yet" for an uncovered reference',
@@ -160,7 +160,6 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.byType(PassageCard), findsNothing);
-    expect(find.byKey(const Key('not-translated-message')), findsNothing);
     expect(find.text('Not translated yet'), findsNothing);
   });
 

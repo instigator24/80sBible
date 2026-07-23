@@ -31,7 +31,7 @@ class _StoriesScreenState extends State<StoriesScreen> {
       MaterialPageRoute(
         builder: (_) => StoryDetailScreen(
           story: story,
-          repository: widget.passageRepository,
+          passageRepository: widget.passageRepository,
         ),
       ),
     );
