@@ -8,12 +8,17 @@ import 'package:slang_bible/logic/bookmarks_provider.dart';
 import 'package:slang_bible/ui/reader/passage_card.dart';
 import 'package:slang_bible/ui/stories/story_detail_screen.dart';
 
-Story _story({required List<StoryReferenceRange> references}) => Story(
+Story _story({
+  required List<StoryReferenceRange> references,
+  String? slangNarrative,
+}) =>
+    Story(
       id: 33,
       testament: Testament.newTestament,
       title: 'The Birth of Jesus',
       referenceDisplay: 'Luke 2:1-20; Matthew 1:18-2:12',
       summary: 'Jesus is born to the virgin Mary in a humble manger.',
+      slangNarrative: slangNarrative,
       references: references,
     );
 
@@ -38,7 +43,9 @@ Future<void> _pump(
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
-  testWidgets('Summary tab shows the story summary text', (tester) async {
+  testWidgets(
+      'Summary tab falls back to the short summary when there is no slang narrative',
+      (tester) async {
     final story = _story(references: [
       const StoryReferenceRange(
         book: 'Luke', chapterStart: 2, verseStart: 1, chapterEnd: 2, verseEnd: 20,
@@ -50,6 +57,29 @@ void main() {
     expect(
       find.text('Jesus is born to the virgin Mary in a humble manger.'),
       findsOneWidget,
+    );
+  });
+
+  testWidgets('Summary tab shows the long slang narrative when present, not the summary',
+      (tester) async {
+    final story = _story(
+      references: [
+        const StoryReferenceRange(
+          book: 'Luke', chapterStart: 2, verseStart: 1, chapterEnd: 2, verseEnd: 20,
+        ),
+      ],
+      slangNarrative: 'A much longer 80s slang retelling of the whole scene.',
+    );
+
+    await _pump(tester, story: story, repository: PassageRepository.fromJsonList([]));
+
+    expect(
+      find.text('A much longer 80s slang retelling of the whole scene.'),
+      findsOneWidget,
+    );
+    expect(
+      find.text('Jesus is born to the virgin Mary in a humble manger.'),
+      findsNothing,
     );
   });
 

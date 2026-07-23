@@ -53,7 +53,7 @@ class _SummaryTab extends StatelessWidget {
             style: Theme.of(context).textTheme.headlineMedium,
           ),
           const SizedBox(height: 12),
-          Text(story.summary),
+          Text(story.displayText),
         ],
       ),
     );

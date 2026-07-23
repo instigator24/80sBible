@@ -12,6 +12,11 @@ ENTRY_RE = re.compile(
     re.MULTILINE,
 )
 
+NARRATIVE_RE = re.compile(
+    r"^## (?P<num>\d+): .+?\n\n(?P<narrative>.+?)(?=\n## \d+:|\Z)",
+    re.MULTILINE | re.DOTALL,
+)
+
 SEGMENT_RE = re.compile(
     r"^(?:(?P<book>(?:[123]\s)?[A-Za-z]+(?:\s[A-Za-z]+)*)\s+)?"
     r"(?P<chapter_start>\d+):(?P<verse_start>\d+)"
@@ -53,6 +58,16 @@ def parse_references(raw: str) -> list:
     return references
 
 
+def parse_narratives(text: str) -> dict:
+    """Parse a `## <id>: <title>\n\n<narrative>` file into {id: narrative}.
+    Front-matter before the first `## <id>:` header (e.g. a title/intro) is
+    ignored since NARRATIVE_RE only matches from the first header onward."""
+    return {
+        int(match.group("num")): match.group("narrative").strip()
+        for match in NARRATIVE_RE.finditer(text)
+    }
+
+
 def parse_stories(text: str) -> list:
     ot_match = re.search(
         r"## The Old Testament\n(.*?)\n## The New Testament", text, re.DOTALL
@@ -82,6 +97,7 @@ def parse_stories(text: str) -> list:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input", default="top_50_bible_stories.md")
+    parser.add_argument("--narratives", default="nt_story_narratives.md")
     parser.add_argument("--output", default="data/stories.json")
     args = parser.parse_args()
 
@@ -92,10 +108,25 @@ def main() -> None:
     if len(stories) != 50:
         sys.exit(f"expected 50 stories, parsed {len(stories)}")
 
+    narratives = {}
+    try:
+        with open(args.narratives, "r", encoding="utf-8") as f:
+            narratives = parse_narratives(f.read())
+    except FileNotFoundError:
+        pass
+
+    for story in stories:
+        narrative = narratives.get(story["id"])
+        if narrative:
+            story["slang_narrative"] = narrative
+
     with open(args.output, "w", encoding="utf-8") as f:
         json.dump(stories, f, indent=2, ensure_ascii=False)
 
-    print(f"wrote {args.output} ({len(stories)} stories)")
+    print(
+        f"wrote {args.output} ({len(stories)} stories, "
+        f"{len(narratives)} with a slang narrative)"
+    )
 
 
 if __name__ == "__main__":

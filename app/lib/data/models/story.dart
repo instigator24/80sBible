@@ -32,6 +32,7 @@ class Story {
   final String title;
   final String referenceDisplay;
   final String summary;
+  final String? slangNarrative;
   final List<StoryReferenceRange> references;
 
   const Story({
@@ -40,8 +41,13 @@ class Story {
     required this.title,
     required this.referenceDisplay,
     required this.summary,
+    this.slangNarrative,
     required this.references,
   });
+
+  /// The longer 80s-slang narrative retelling, falling back to the short
+  /// [summary] for stories that don't have one drafted yet.
+  String get displayText => slangNarrative ?? summary;
 
   factory Story.fromJson(Map<String, dynamic> json) {
     return Story(
@@ -54,6 +60,7 @@ class Story {
       title: json['title'] as String,
       referenceDisplay: json['reference_display'] as String,
       summary: json['summary'] as String,
+      slangNarrative: json['slang_narrative'] as String?,
       references: (json['references'] as List<dynamic>)
           .map((e) => StoryReferenceRange.fromJson(e as Map<String, dynamic>))
           .toList(),

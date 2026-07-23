@@ -104,5 +104,35 @@ void main() {
         story.references.first.chapterEnd,
       );
     });
+
+    test('parses slang_narrative when present', () {
+      final story = Story.fromJson({
+        'id': 33,
+        'testament': 'new',
+        'title': 'The Birth of Jesus',
+        'reference_display': 'Luke 2:1-20',
+        'summary': 'short summary',
+        'slang_narrative': 'a much longer 80s slang retelling',
+        'references': <Map<String, dynamic>>[],
+      });
+
+      expect(story.slangNarrative, 'a much longer 80s slang retelling');
+      expect(story.displayText, 'a much longer 80s slang retelling');
+    });
+
+    test('slang_narrative is null when absent, displayText falls back to summary',
+        () {
+      final story = Story.fromJson({
+        'id': 1,
+        'testament': 'old',
+        'title': 'The Creation',
+        'reference_display': 'Genesis 1:1 - 2:25',
+        'summary': 'short summary',
+        'references': <Map<String, dynamic>>[],
+      });
+
+      expect(story.slangNarrative, isNull);
+      expect(story.displayText, 'short summary');
+    });
   });
 }
