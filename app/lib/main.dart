@@ -20,7 +20,9 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   final prefs = await SharedPreferences.getInstance();
   final repository = await PassageRepository.loadFromAssets(kBookAssetPaths);
-  final storyRepository = await StoryRepository.loadFromAssets(kStoriesAssetPath);
+  final storyRepository = await StoryRepository.loadFromAssets(
+    kStoriesAssetPath,
+  );
 
   runApp(
     ProviderScope(
@@ -124,7 +126,10 @@ class _RootShellState extends ConsumerState<RootShell> {
           NavigationDestination(icon: Icon(Icons.star), label: 'Bookmarks'),
           NavigationDestination(icon: Icon(Icons.search), label: 'Search'),
           NavigationDestination(icon: Icon(Icons.palette), label: 'Settings'),
-          NavigationDestination(icon: Icon(Icons.auto_stories), label: 'Stories'),
+          NavigationDestination(
+            icon: Icon(Icons.auto_stories),
+            label: 'Stories',
+          ),
         ],
       ),
     );
