@@ -64,6 +64,16 @@ void main() {
     });
   });
 
+  group('StoryRepository constructor', () {
+    test('constructor sorts unsorted input directly (not just via fromJsonList)', () {
+      final repo = StoryRepository([
+        Story(id: 3, testament: Testament.oldTestament, title: 'c', referenceDisplay: '', summary: '', references: []),
+        Story(id: 1, testament: Testament.oldTestament, title: 'a', referenceDisplay: '', summary: '', references: []),
+      ]);
+      expect(repo.all.map((s) => s.id).toList(), [1, 3]);
+    });
+  });
+
   group('StoryRepository.loadFromAssets', () {
     TestWidgetsFlutterBinding.ensureInitialized();
 

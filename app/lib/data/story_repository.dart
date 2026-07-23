@@ -9,13 +9,13 @@ const kStoriesAssetPath = 'assets/data/stories.json';
 class StoryRepository {
   final List<Story> _stories;
 
-  StoryRepository(this._stories);
+  StoryRepository(List<Story> stories)
+      : _stories = List.of(stories)..sort((a, b) => a.id.compareTo(b.id));
 
   factory StoryRepository.fromJsonList(List<dynamic> decoded) {
     final stories = decoded
         .map((e) => Story.fromJson(e as Map<String, dynamic>))
         .toList();
-    stories.sort((a, b) => a.id.compareTo(b.id));
     return StoryRepository(stories);
   }
 
