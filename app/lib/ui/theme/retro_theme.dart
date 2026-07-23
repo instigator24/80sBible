@@ -59,6 +59,7 @@ ThemeData buildRetroTheme() {
       ),
       labelTextStyle: WidgetStateProperty.resolveWith(
         (states) => TextStyle(
+          fontSize: 12,
           color: states.contains(WidgetState.selected)
               ? RetroColors.ink
               : Colors.white,

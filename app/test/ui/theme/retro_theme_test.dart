@@ -18,5 +18,20 @@ void main() {
       expect(shape.side.width, 4);
       expect(shape.side.color, RetroColors.ink);
     });
+
+    test(
+        'navigation bar label text has an explicit compact font size '
+        '(regression: omitting fontSize made the 6-tab bar overflow)', () {
+      final theme = buildRetroTheme();
+      final selectedStyle = theme.navigationBarTheme.labelTextStyle!
+          .resolve({WidgetState.selected})!;
+      final unselectedStyle =
+          theme.navigationBarTheme.labelTextStyle!.resolve({})!;
+
+      expect(selectedStyle.fontSize, isNotNull);
+      expect(selectedStyle.fontSize, lessThanOrEqualTo(12));
+      expect(unselectedStyle.fontSize, isNotNull);
+      expect(unselectedStyle.fontSize, lessThanOrEqualTo(12));
+    });
   });
 }
