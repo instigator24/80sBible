@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 .claude/scheduled_tasks.lock
 80sCapture.pdf
+.worktrees/
