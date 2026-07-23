@@ -68,27 +68,30 @@ class _VersesTab extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final children = <Widget>[];
-    for (final range in story.references) {
-      final passages = repository.passagesForChapterRange(
-        range.book,
-        range.chapterStart,
-        range.chapterEnd,
+    return ListView(
+      children: [for (final range in story.references) _rangeWidget(range)],
+    );
+  }
+
+  Widget _rangeWidget(StoryReferenceRange range) {
+    final passages = repository.passagesForChapterRange(
+      range.book,
+      range.chapterStart,
+      range.chapterEnd,
+    );
+    if (passages.isEmpty) {
+      return Padding(
+        padding: const EdgeInsets.all(16),
+        child: Center(
+          key: Key('not-translated-message-${range.book}-${range.chapterStart}'),
+          child: const Text('Not translated yet'),
+        ),
       );
-      if (passages.isEmpty) {
-        children.add(
-          const Padding(
-            padding: EdgeInsets.all(16),
-            child: Center(
-              key: Key('not-translated-message'),
-              child: Text('Not translated yet'),
-            ),
-          ),
-        );
-      } else {
-        children.addAll(passages.map((p) => PassageCard(passage: p)));
-      }
     }
-    return ListView(children: children);
+    return Column(
+      children: [
+        for (final p in passages) PassageCard(key: ValueKey(p.id), passage: p),
+      ],
+    );
   }
 }
