@@ -69,11 +69,14 @@ class _VersesTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView(
-      children: [for (final range in story.references) _rangeWidget(range)],
+      children: [
+        for (final (index, range) in story.references.indexed)
+          _rangeWidget(range, index),
+      ],
     );
   }
 
-  Widget _rangeWidget(StoryReferenceRange range) {
+  Widget _rangeWidget(StoryReferenceRange range, int index) {
     final passages = repository.passagesForChapterRange(
       range.book,
       range.chapterStart,
@@ -83,7 +86,7 @@ class _VersesTab extends StatelessWidget {
       return Padding(
         padding: const EdgeInsets.all(16),
         child: Center(
-          key: Key('not-translated-message-${range.book}-${range.chapterStart}'),
+          key: Key('not-translated-message-$index'),
           child: const Text('Not translated yet'),
         ),
       );

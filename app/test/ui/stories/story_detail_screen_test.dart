@@ -87,7 +87,7 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(
-      find.byKey(const Key('not-translated-message-Genesis-1')),
+      find.byKey(const Key('not-translated-message-0')),
       findsOneWidget,
     );
   });
@@ -116,7 +116,7 @@ void main() {
 
     expect(find.text('slang text'), findsOneWidget);
     expect(
-      find.byKey(const Key('not-translated-message-Matthew-1')),
+      find.byKey(const Key('not-translated-message-1')),
       findsOneWidget,
     );
   });
@@ -162,6 +162,25 @@ void main() {
     expect(find.byType(PassageCard), findsNothing);
     expect(find.byKey(const Key('not-translated-message')), findsNothing);
     expect(find.text('Not translated yet'), findsNothing);
+  });
+
+  testWidgets('Verses tab gives each uncovered range a distinct placeholder key',
+      (tester) async {
+    final story = _story(references: [
+      const StoryReferenceRange(
+        book: 'Luke', chapterStart: 1, verseStart: 5, chapterEnd: 1, verseEnd: 25,
+      ),
+      const StoryReferenceRange(
+        book: 'Luke', chapterStart: 1, verseStart: 26, chapterEnd: 1, verseEnd: 38,
+      ),
+    ]);
+
+    await _pump(tester, story: story, repository: PassageRepository.fromJsonList([]));
+    await tester.tap(find.text('Verses'));
+    await tester.pumpAndSettle();
+
+    expect(find.byKey(const Key('not-translated-message-0')), findsOneWidget);
+    expect(find.byKey(const Key('not-translated-message-1')), findsOneWidget);
   });
 
   testWidgets('Switching tabs Verses -> Summary -> Verses does not crash',
