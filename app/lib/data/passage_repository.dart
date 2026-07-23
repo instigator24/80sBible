@@ -51,6 +51,25 @@ class PassageRepository {
     return result;
   }
 
+  List<Passage> passagesForChapterRange(
+    String book,
+    int chapterStart,
+    int chapterEnd,
+  ) {
+    final result = _passages
+        .where((p) =>
+            p.book == book &&
+            p.chapter >= chapterStart &&
+            p.chapter <= chapterEnd)
+        .toList();
+    result.sort((a, b) {
+      final chapterCompare = a.chapter.compareTo(b.chapter);
+      if (chapterCompare != 0) return chapterCompare;
+      return a.verseStart.compareTo(b.verseStart);
+    });
+    return result;
+  }
+
   bool hasChapter(String book, int chapter) =>
       _passages.any((p) => p.book == book && p.chapter == chapter);
 }

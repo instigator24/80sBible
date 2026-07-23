@@ -56,4 +56,31 @@ void main() {
       expect(repo.hasChapter('John', 1), isTrue);
     });
   });
+
+  group('PassageRepository.passagesForChapterRange', () {
+    test('returns passages across a chapter range, sorted by chapter then verse', () {
+      final repo = PassageRepository.fromJsonList([
+        {
+          'book': 'Genesis', 'chapter': 2, 'verse_start': 1, 'verse_end': 25,
+          'web_text': 'b', 'slang_text': 'B',
+        },
+        {
+          'book': 'Genesis', 'chapter': 1, 'verse_start': 1, 'verse_end': 31,
+          'web_text': 'a', 'slang_text': 'A',
+        },
+        {
+          'book': 'Exodus', 'chapter': 1, 'verse_start': 1, 'verse_end': 10,
+          'web_text': 'x', 'slang_text': 'X',
+        },
+      ]);
+
+      final passages = repo.passagesForChapterRange('Genesis', 1, 2);
+      expect(passages.map((p) => p.chapter).toList(), [1, 2]);
+    });
+
+    test('returns empty when there is no content for that book', () {
+      final repo = PassageRepository.fromJsonList([]);
+      expect(repo.passagesForChapterRange('Genesis', 1, 2), isEmpty);
+    });
+  });
 }
