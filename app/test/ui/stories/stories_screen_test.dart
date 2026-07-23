@@ -52,29 +52,33 @@ Future<void> _pump(WidgetTester tester) async {
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
-  testWidgets('defaults to showing Old Testament stories', (tester) async {
+  testWidgets('defaults to showing New Testament stories', (tester) async {
     await _pump(tester);
-    expect(find.text('The Creation'), findsOneWidget);
-    expect(find.text('The Birth of Jesus'), findsNothing);
-  });
-
-  testWidgets('toggling to New Testament filters the list', (tester) async {
-    await _pump(tester);
-
-    await tester.tap(find.text('New Testament'));
-    await tester.pump();
-
     expect(find.text('The Birth of Jesus'), findsOneWidget);
     expect(find.text('The Creation'), findsNothing);
+    expect(find.byKey(const Key('old-testament-coming-soon')), findsNothing);
+  });
+
+  testWidgets('toggling to Old Testament shows a "Coming soon" placeholder instead of a list',
+      (tester) async {
+    await _pump(tester);
+
+    await tester.tap(find.text('Old Testament'));
+    await tester.pump();
+
+    expect(find.byKey(const Key('old-testament-coming-soon')), findsOneWidget);
+    expect(find.text('Coming soon'), findsOneWidget);
+    expect(find.text('The Creation'), findsNothing);
+    expect(find.text('The Birth of Jesus'), findsNothing);
   });
 
   testWidgets('tapping a story pushes to StoryDetailScreen', (tester) async {
     await _pump(tester);
 
-    await tester.tap(find.text('The Creation'));
+    await tester.tap(find.text('The Birth of Jesus'));
     await tester.pumpAndSettle();
 
-    expect(find.text('Genesis 1:1 – 2:25'), findsOneWidget);
+    expect(find.text('Luke 2:1–20'), findsOneWidget);
 
     await tester.tap(find.text('Verses'));
     await tester.pumpAndSettle();

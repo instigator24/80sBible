@@ -20,7 +20,7 @@ class StoriesScreen extends StatefulWidget {
 }
 
 class _StoriesScreenState extends State<StoriesScreen> {
-  Testament _testament = Testament.oldTestament;
+  Testament _testament = Testament.newTestament;
 
   void _onTestamentChanged(Set<Testament> selection) {
     setState(() => _testament = selection.first);
@@ -62,16 +62,21 @@ class _StoriesScreenState extends State<StoriesScreen> {
           ),
         ),
         Expanded(
-          child: ListView(
-            children: stories
-                .map((s) => ListTile(
-                      key: Key('story-${s.id}'),
-                      title: Text(s.title),
-                      subtitle: Text(s.referenceDisplay),
-                      onTap: () => _openStory(s),
-                    ))
-                .toList(),
-          ),
+          child: _testament == Testament.oldTestament
+              ? const Center(
+                  key: Key('old-testament-coming-soon'),
+                  child: Text('Coming soon'),
+                )
+              : ListView(
+                  children: stories
+                      .map((s) => ListTile(
+                            key: Key('story-${s.id}'),
+                            title: Text(s.title),
+                            subtitle: Text(s.referenceDisplay),
+                            onTap: () => _openStory(s),
+                          ))
+                      .toList(),
+                ),
         ),
       ],
     );
