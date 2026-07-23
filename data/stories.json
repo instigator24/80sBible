@@ -1,0 +1,837 @@
+[
+  {
+    "id": 1,
+    "testament": "old",
+    "title": "The Creation",
+    "reference_display": "Genesis 1:1 – 2:25",
+    "references": [
+      {
+        "book": "Genesis",
+        "chapter_start": 1,
+        "verse_start": 1,
+        "chapter_end": 2,
+        "verse_end": 25
+      }
+    ],
+    "summary": "God speaks the universe into existence over six days, forming light, land, and life. He crowns creation by forming Adam and Eve in His image to care for the Garden of Eden."
+  },
+  {
+    "id": 2,
+    "testament": "old",
+    "title": "The Fall of Man",
+    "reference_display": "Genesis 3:1–24",
+    "references": [
+      {
+        "book": "Genesis",
+        "chapter_start": 3,
+        "verse_start": 1,
+        "chapter_end": 3,
+        "verse_end": 24
+      }
+    ],
+    "summary": "Deceived by a deceptive serpent, Adam and Eve eat the forbidden fruit from the Tree of Knowledge. Their disobedience introduces sin and suffering to the world, resulting in their exile from Paradise."
+  },
+  {
+    "id": 3,
+    "testament": "old",
+    "title": "Cain and Abel",
+    "reference_display": "Genesis 4:1–16",
+    "references": [
+      {
+        "book": "Genesis",
+        "chapter_start": 4,
+        "verse_start": 1,
+        "chapter_end": 4,
+        "verse_end": 16
+      }
+    ],
+    "summary": "Consumed by jealousy over accepted sacrifices, Cain murders his righteous brother Abel in the world's first homicide. God punishes Cain with a nomadic curse but marks him for protection from retribution."
+  },
+  {
+    "id": 4,
+    "testament": "old",
+    "title": "Noah's Ark and the Flood",
+    "reference_display": "Genesis 6:9 – 9:17",
+    "references": [
+      {
+        "book": "Genesis",
+        "chapter_start": 6,
+        "verse_start": 9,
+        "chapter_end": 9,
+        "verse_end": 17
+      }
+    ],
+    "summary": "Grieved by human wickedness, God floods the earth but spares righteous Noah, his family, and animal pairs inside a massive ark. Afterward, God sends a rainbow as a permanent covenant never to destroy the earth by water again."
+  },
+  {
+    "id": 5,
+    "testament": "old",
+    "title": "The Tower of Babel",
+    "reference_display": "Genesis 11:1–9",
+    "references": [
+      {
+        "book": "Genesis",
+        "chapter_start": 11,
+        "verse_start": 1,
+        "chapter_end": 11,
+        "verse_end": 9
+      }
+    ],
+    "summary": "A unified humanity attempts to build a colossal tower reaching into heaven to make a proud name for themselves. God humbles their arrogance by confusing their languages and scattering them across the face of the earth."
+  },
+  {
+    "id": 6,
+    "testament": "old",
+    "title": "The Call of Abraham",
+    "reference_display": "Genesis 12:1–9",
+    "references": [
+      {
+        "book": "Genesis",
+        "chapter_start": 12,
+        "verse_start": 1,
+        "chapter_end": 12,
+        "verse_end": 9
+      }
+    ],
+    "summary": "God commands Abram to leave his homeland for an unknown territory, promising to bless him and make his descendants a great nation. This foundational step establishes the lineage of the Israelite people and the lineage of the Messiah."
+  },
+  {
+    "id": 7,
+    "testament": "old",
+    "title": "Sodom and Gomorrah",
+    "reference_display": "Genesis 19:1–29",
+    "references": [
+      {
+        "book": "Genesis",
+        "chapter_start": 19,
+        "verse_start": 1,
+        "chapter_end": 19,
+        "verse_end": 29
+      }
+    ],
+    "summary": "God rains down fire and brimstone to eradicate two cities infamous for their overwhelming wickedness and depravity. While escaping the destruction, Lot's wife disobeys angelic warnings by looking back and transforms into a pillar of salt."
+  },
+  {
+    "id": 8,
+    "testament": "old",
+    "title": "The Sacrifice of Isaac",
+    "reference_display": "Genesis 22:1–19",
+    "references": [
+      {
+        "book": "Genesis",
+        "chapter_start": 22,
+        "verse_start": 1,
+        "chapter_end": 22,
+        "verse_end": 19
+      }
+    ],
+    "summary": "God tests Abraham's ultimate faith by commanding him to offer his beloved, long-awaited son Isaac as a burnt sacrifice. As Abraham raises the knife, an angel stops him and provides a trapped ram as a substitute."
+  },
+  {
+    "id": 9,
+    "testament": "old",
+    "title": "Jacob and Esau",
+    "reference_display": "Genesis 25:19–34; 27:1–45",
+    "references": [
+      {
+        "book": "Genesis",
+        "chapter_start": 25,
+        "verse_start": 19,
+        "chapter_end": 25,
+        "verse_end": 34
+      },
+      {
+        "book": "Genesis",
+        "chapter_start": 27,
+        "verse_start": 1,
+        "chapter_end": 27,
+        "verse_end": 45
+      }
+    ],
+    "summary": "Rival twin brothers split when desperate Esau trades his birthright to crafty Jacob for a simple bowl of lentil stew. Jacob later disguises himself to steal their dying father Isaac's final patriarchal blessing, triggering a decades-long family feud."
+  },
+  {
+    "id": 10,
+    "testament": "old",
+    "title": "Jacob's Ladder",
+    "reference_display": "Genesis 28:10–22",
+    "references": [
+      {
+        "book": "Genesis",
+        "chapter_start": 28,
+        "verse_start": 10,
+        "chapter_end": 28,
+        "verse_end": 22
+      }
+    ],
+    "summary": "While fleeing his brother's wrath, Jacob dreams of a grand stairway stretching from earth to heaven with angels walking up and down. God stands at the top, renewing the ancestral covenant to give Jacob's descendants the Promised Land."
+  },
+  {
+    "id": 11,
+    "testament": "old",
+    "title": "Joseph's Coat and Slavery",
+    "reference_display": "Genesis 37:1–36",
+    "references": [
+      {
+        "book": "Genesis",
+        "chapter_start": 37,
+        "verse_start": 1,
+        "chapter_end": 37,
+        "verse_end": 36
+      }
+    ],
+    "summary": "Resentful of Joseph's prophetic dreams and his colorful coat of favoritism, his jealous brothers plot to kill him. They ultimately sell him to passing merchants, faking his death to their heartbroken father with animal blood."
+  },
+  {
+    "id": 12,
+    "testament": "old",
+    "title": "Baby Moses in the Basket",
+    "reference_display": "Exodus 2:1–10",
+    "references": [
+      {
+        "book": "Exodus",
+        "chapter_start": 2,
+        "verse_start": 1,
+        "chapter_end": 2,
+        "verse_end": 10
+      }
+    ],
+    "summary": "To evade Pharaoh's brutal decree to drown all newborn Hebrew boys, a desperate mother hides her infant in a coated papyrus basket on the Nile. Pharaoh's own daughter discovers the crying baby, adopts him, and raises him in Egyptian royalty."
+  },
+  {
+    "id": 13,
+    "testament": "old",
+    "title": "Moses and the Burning Bush",
+    "reference_display": "Exodus 3:1–22",
+    "references": [
+      {
+        "book": "Exodus",
+        "chapter_start": 3,
+        "verse_start": 1,
+        "chapter_end": 3,
+        "verse_end": 22
+      }
+    ],
+    "summary": "While shepherding in the desert, Moses encounters a bush that burns with fire but is never consumed by the flames. God speaks from the fire, revealing His sacred name and appointing Moses to liberate the Israelites from slavery."
+  },
+  {
+    "id": 14,
+    "testament": "old",
+    "title": "The Ten Plagues & Red Sea",
+    "reference_display": "Exodus 7:14 – 12:30; 14:1–31",
+    "references": [
+      {
+        "book": "Exodus",
+        "chapter_start": 7,
+        "verse_start": 14,
+        "chapter_end": 12,
+        "verse_end": 30
+      },
+      {
+        "book": "Exodus",
+        "chapter_start": 14,
+        "verse_start": 1,
+        "chapter_end": 14,
+        "verse_end": 31
+      }
+    ],
+    "summary": "God sends ten devastating plagues upon Egypt to break Pharaoh's stubborn heart and compel him to release the Hebrew slaves. As Pharaoh's army later traps them, Moses parts the Red Sea, allowing Israel to walk through safely before the waters collapse."
+  },
+  {
+    "id": 15,
+    "testament": "old",
+    "title": "The Ten Commandments",
+    "reference_display": "Exodus 20:1–17",
+    "references": [
+      {
+        "book": "Exodus",
+        "chapter_start": 20,
+        "verse_start": 1,
+        "chapter_end": 20,
+        "verse_end": 17
+      }
+    ],
+    "summary": "Amidst thunder, lightning, and thick smoke on Mount Sinai, God delivers the core moral law directly to the Israelite nation. Engraved on tablets of stone, these rules establish foundational boundaries for loving God and treating neighbors fairly."
+  },
+  {
+    "id": 16,
+    "testament": "old",
+    "title": "The Golden Calf",
+    "reference_display": "Exodus 32:1–35",
+    "references": [
+      {
+        "book": "Exodus",
+        "chapter_start": 32,
+        "verse_start": 1,
+        "chapter_end": 32,
+        "verse_end": 35
+      }
+    ],
+    "summary": "Growing highly impatient while Moses converses with God on the mountain, the Israelites pressure Aaron to craft a golden idol. They plunge into pagan revelry, breaking their fresh covenant and provoking a furious Moses to smash the stone tablets."
+  },
+  {
+    "id": 17,
+    "testament": "old",
+    "title": "Balaam and the Talking Donkey",
+    "reference_display": "Numbers 22:21–39",
+    "references": [
+      {
+        "book": "Numbers",
+        "chapter_start": 22,
+        "verse_start": 21,
+        "chapter_end": 22,
+        "verse_end": 39
+      }
+    ],
+    "summary": "A greedy sorcerer rides out to curse Israel, unaware that the terrifying Angel of the Lord stands in his path with a drawn sword. When his donkey repeatedly crushes his foot to save him, God opens the animal's mouth to verbally rebuke its master."
+  },
+  {
+    "id": 18,
+    "testament": "old",
+    "title": "Rahab and the Spies",
+    "reference_display": "Joshua 2:1–24",
+    "references": [
+      {
+        "book": "Joshua",
+        "chapter_start": 2,
+        "verse_start": 1,
+        "chapter_end": 2,
+        "verse_end": 24
+      }
+    ],
+    "summary": "A courageous Canaanite woman risks her life to hide two Israelite scouts inside the fortified city walls of Jericho. Recognizing the power of Israel's God, she secures safety for her household by hanging a bright scarlet cord from her window."
+  },
+  {
+    "id": 19,
+    "testament": "old",
+    "title": "The Battle of Jericho",
+    "reference_display": "Joshua 6:1–27",
+    "references": [
+      {
+        "book": "Joshua",
+        "chapter_start": 6,
+        "verse_start": 1,
+        "chapter_end": 6,
+        "verse_end": 27
+      }
+    ],
+    "summary": "Following unique divine tactics, Joshua leads the Israelite army to march silently around Jericho once a day for six days straight. On the seventh day, a massive shout and a blast of ram horns cause the city's impenetrable walls to collapse."
+  },
+  {
+    "id": 20,
+    "testament": "old",
+    "title": "Gideon's Fleece and 300 Men",
+    "reference_display": "Judges 6:33 – 7:25",
+    "references": [
+      {
+        "book": "Judges",
+        "chapter_start": 6,
+        "verse_start": 33,
+        "chapter_end": 7,
+        "verse_end": 25
+      }
+    ],
+    "summary": "Gideon requests miraculous signs with a wool fleece to confirm God's call to save Israel from overwhelming foreign raiders. God then slashes Gideon's massive army down to just 300 men, routing the enemy using only trumpets, smashed jars, and hidden torches."
+  },
+  {
+    "id": 21,
+    "testament": "old",
+    "title": "Samson and Delilah",
+    "reference_display": "Judges 16:4–31",
+    "references": [
+      {
+        "book": "Judges",
+        "chapter_start": 16,
+        "verse_start": 4,
+        "chapter_end": 16,
+        "verse_end": 31
+      }
+    ],
+    "summary": "An exceptionally powerful Israelite judge falls in love with Delilah, a deceptive woman bribed by enemies to uncover his weakness. After relentless manipulation, he reveals his long hair holds his vow of strength, leaving him captured, blinded, and enslaved."
+  },
+  {
+    "id": 22,
+    "testament": "old",
+    "title": "Ruth and Naomi",
+    "reference_display": "Ruth 1:1 – 4:22",
+    "references": [
+      {
+        "book": "Ruth",
+        "chapter_start": 1,
+        "verse_start": 1,
+        "chapter_end": 4,
+        "verse_end": 22
+      }
+    ],
+    "summary": "Following the tragic deaths of their husbands, a young Moabite widow refuses to abandon her aging, destitute Judean mother-in-law. Her fierce loyalty guides her to glean fields in Bethlehem, leading to a redemptive marriage that places her in King David's lineage."
+  },
+  {
+    "id": 23,
+    "testament": "old",
+    "title": "God Calls the Boy Samuel",
+    "reference_display": "1 Samuel 3:1–21",
+    "references": [
+      {
+        "book": "1 Samuel",
+        "chapter_start": 3,
+        "verse_start": 1,
+        "chapter_end": 3,
+        "verse_end": 21
+      }
+    ],
+    "summary": "A young boy serving in the tabernacle hears a mysterious voice calling out his name three times during the night. Guided by the old priest Eli, Samuel answers the fourth call, kickstarting his lifelong role as Israel's final judge and greatest prophet."
+  },
+  {
+    "id": 24,
+    "testament": "old",
+    "title": "David and Goliath",
+    "reference_display": "1 Samuel 17:1–58",
+    "references": [
+      {
+        "book": "1 Samuel",
+        "chapter_start": 17,
+        "verse_start": 1,
+        "chapter_end": 17,
+        "verse_end": 58
+      }
+    ],
+    "summary": "A giant Philistine warrior terrorizes Israel's military for forty days, mocking their faith and challenging anyone to single combat. Armed only with a shepherd's sling and unshakeable trust in God, the young boy David fells the giant with a single stone."
+  },
+  {
+    "id": 25,
+    "testament": "old",
+    "title": "Solomon's Wisdom",
+    "reference_display": "1 Kings 3:16–28",
+    "references": [
+      {
+        "book": "1 Kings",
+        "chapter_start": 3,
+        "verse_start": 16,
+        "chapter_end": 3,
+        "verse_end": 28
+      }
+    ],
+    "summary": "Confronted by two mothers who both claim custody of the same surviving infant, King Solomon commands the baby be cut in half. The true mother instantly begs to give the child away to save its life, beautifully revealing the hidden truth to the king."
+  },
+  {
+    "id": 26,
+    "testament": "old",
+    "title": "Elijah and the Prophets of Baal",
+    "reference_display": "1 Kings 18:16–40",
+    "references": [
+      {
+        "book": "1 Kings",
+        "chapter_start": 18,
+        "verse_start": 16,
+        "chapter_end": 18,
+        "verse_end": 40
+      }
+    ],
+    "summary": "Prophet Elijah stages a dramatic showdown against 450 pagan prophets on Mount Carmel to prove who serves the one true living God. While the pagan altars remain silent, Elijah's water-drenched sacrifice is utterly consumed by raging fire falling from heaven."
+  },
+  {
+    "id": 27,
+    "testament": "old",
+    "title": "Elijah is Taken to Heaven",
+    "reference_display": "2 Kings 2:1–12",
+    "references": [
+      {
+        "book": "2 Kings",
+        "chapter_start": 2,
+        "verse_start": 1,
+        "chapter_end": 2,
+        "verse_end": 12
+      }
+    ],
+    "summary": "Walking along the Jordan River with his faithful successor Elisha, the legendary prophet Elijah reaches the grand finale of his earthly ministry. Suddenly, a spectacular chariot of fire pulled by fiery horses separates them, and Elijah ascends to heaven in a whirlwind."
+  },
+  {
+    "id": 28,
+    "testament": "old",
+    "title": "The Sufferings of Job",
+    "reference_display": "Job 1:1 – 2:13; 42:1–17",
+    "references": [
+      {
+        "book": "Job",
+        "chapter_start": 1,
+        "verse_start": 1,
+        "chapter_end": 2,
+        "verse_end": 13
+      },
+      {
+        "book": "Job",
+        "chapter_start": 42,
+        "verse_start": 1,
+        "chapter_end": 42,
+        "verse_end": 17
+      }
+    ],
+    "summary": "Permitted by God to test a righteous man's integrity, Satan strips Job of his immense wealth, his children, and his physical health. Despite experiencing profound grief and confusing theological silence, Job refuses to curse God and is ultimately restored with double his original blessings."
+  },
+  {
+    "id": 29,
+    "testament": "old",
+    "title": "Queen Esther Saves Her People",
+    "reference_display": "Esther 3:1 – 9:32",
+    "references": [
+      {
+        "book": "Esther",
+        "chapter_start": 3,
+        "verse_start": 1,
+        "chapter_end": 9,
+        "verse_end": 32
+      }
+    ],
+    "summary": "A hidden Jewish orphan rises to become the Queen of Persia just as a wicked advisor plots the total annihilation of her people. Risking execution by approaching the king unsummoned, she bravely exposes the genocide and turns the tables on the empire's enemies."
+  },
+  {
+    "id": 30,
+    "testament": "old",
+    "title": "The Fiery Furnace",
+    "reference_display": "Daniel 3:1–30",
+    "references": [
+      {
+        "book": "Daniel",
+        "chapter_start": 3,
+        "verse_start": 1,
+        "chapter_end": 3,
+        "verse_end": 30
+      }
+    ],
+    "summary": "Three devout Hebrew youths defy the king's decree to worship a massive golden idol, choosing execution over idolatry. Thrown into a superheated furnace, they emerge without a single singe or the smell of smoke, accompanied by a protective, divine fourth figure."
+  },
+  {
+    "id": 31,
+    "testament": "old",
+    "title": "Daniel in the Lions' Den",
+    "reference_display": "Daniel 6:1–28",
+    "references": [
+      {
+        "book": "Daniel",
+        "chapter_start": 6,
+        "verse_start": 1,
+        "chapter_end": 6,
+        "verse_end": 28
+      }
+    ],
+    "summary": "Tricked by jealous officials, a Persian king passes a strict law banning prayer to anyone but himself, trapping the elderly statesman Daniel. Daniel continues his daily prayers openly, faces a den of ravenous lions overnight, and is saved when God sends an angel to shut the lions' mouths."
+  },
+  {
+    "id": 32,
+    "testament": "old",
+    "title": "Jonah and the Whale",
+    "reference_display": "Jonah 1:1 – 2:10",
+    "references": [
+      {
+        "book": "Jonah",
+        "chapter_start": 1,
+        "verse_start": 1,
+        "chapter_end": 2,
+        "verse_end": 10
+      }
+    ],
+    "summary": "A rebellious prophet flees aboard a ship to escape God's explicit command to preach repentance to Israel's brutal enemies in Nineveh. Cast overboard during a supernatural storm, he is swallowed by a great fish, repents inside its belly for three days, and is vomited onto dry land."
+  },
+  {
+    "id": 33,
+    "testament": "new",
+    "title": "The Birth of Jesus",
+    "reference_display": "Luke 2:1–20; Matthew 1:18 – 2:12",
+    "references": [
+      {
+        "book": "Luke",
+        "chapter_start": 2,
+        "verse_start": 1,
+        "chapter_end": 2,
+        "verse_end": 20
+      },
+      {
+        "book": "Matthew",
+        "chapter_start": 1,
+        "verse_start": 18,
+        "chapter_end": 2,
+        "verse_end": 12
+      }
+    ],
+    "summary": "Jesus is born to the virgin Mary in a humble Bethlehem manger because there is absolutely no room for them in the local inn. His arrival is celebrated by a host of heavenly angels appearing to shepherds and by mysterious wise men traveling from the East."
+  },
+  {
+    "id": 34,
+    "testament": "new",
+    "title": "The Baptism of Jesus",
+    "reference_display": "Matthew 3:13–17",
+    "references": [
+      {
+        "book": "Matthew",
+        "chapter_start": 3,
+        "verse_start": 13,
+        "chapter_end": 3,
+        "verse_end": 17
+      }
+    ],
+    "summary": "Approaching John the Baptist at the Jordan River, Jesus insists on being baptized to fulfill all righteousness. As He steps out of the water, the Holy Spirit visibly descends like a dove, and God's voice proclaims Him as His beloved Son."
+  },
+  {
+    "id": 35,
+    "testament": "new",
+    "title": "The Temptation of Jesus",
+    "reference_display": "Matthew 4:1–11",
+    "references": [
+      {
+        "book": "Matthew",
+        "chapter_start": 4,
+        "verse_start": 1,
+        "chapter_end": 4,
+        "verse_end": 11
+      }
+    ],
+    "summary": "Following his baptism, Jesus fasts for forty grueling days in the harsh wilderness, where Satan attempts to exploit His physical hunger and divine identity. Jesus shuts down each psychological temptation by quoting Scripture, modeling perfect human obedience."
+  },
+  {
+    "id": 36,
+    "testament": "new",
+    "title": "The Sermon on the Mount",
+    "reference_display": "Matthew 5:1 – 7:29",
+    "references": [
+      {
+        "book": "Matthew",
+        "chapter_start": 5,
+        "verse_start": 1,
+        "chapter_end": 7,
+        "verse_end": 29
+      }
+    ],
+    "summary": "Sitting on a mountainside, Jesus delivers a revolutionary manifesto that flips traditional religious and social expectations completely upside down. He introduces the Beatitudes, instructs followers to love their enemies, and provides the foundational Lord's Prayer."
+  },
+  {
+    "id": 37,
+    "testament": "new",
+    "title": "Jesus Heals a Paralytic through the Roof",
+    "reference_display": "Mark 2:1–12",
+    "references": [
+      {
+        "book": "Mark",
+        "chapter_start": 2,
+        "verse_start": 1,
+        "chapter_end": 2,
+        "verse_end": 12
+      }
+    ],
+    "summary": "Blocked by suffocating crowds surrounding a home where Jesus is teaching, four dedicated friends dig an opening through the clay roof. They lower a paralyzed man down on a mat, prompting Jesus to forgive his sins and heal his body."
+  },
+  {
+    "id": 38,
+    "testament": "new",
+    "title": "Jesus Calms the Storm",
+    "reference_display": "Mark 4:35–41",
+    "references": [
+      {
+        "book": "Mark",
+        "chapter_start": 4,
+        "verse_start": 35,
+        "chapter_end": 4,
+        "verse_end": 41
+      }
+    ],
+    "summary": "A violent tempest threatens to swamp a small fishing boat on the Sea of Galilee while an exhausted Jesus sleeps soundly on a cushion. Awakened by terrified disciples, He stands up, rebukes the elements with \"Peace, be still,\" and instantly silences the storm."
+  },
+  {
+    "id": 39,
+    "testament": "new",
+    "title": "Water into Wine",
+    "reference_display": "John 2:1–11",
+    "references": [
+      {
+        "book": "John",
+        "chapter_start": 2,
+        "verse_start": 1,
+        "chapter_end": 2,
+        "verse_end": 11
+      }
+    ],
+    "summary": "Attending a wedding in Cana, Jesus performs His very first public miracle after the hosts face social embarrassment by running out of refreshments. At His mother Mary's request, He transforms six massive stone jars of ordinary water into top-tier wine."
+  },
+  {
+    "id": 40,
+    "testament": "new",
+    "title": "Feeding the 5,000",
+    "reference_display": "Matthew 14:13–21",
+    "references": [
+      {
+        "book": "Matthew",
+        "chapter_start": 14,
+        "verse_start": 13,
+        "chapter_end": 14,
+        "verse_end": 21
+      }
+    ],
+    "summary": "Faced with a massive, hungry crowd in a remote area, Jesus refuses to send them away empty-handed. Taking a young boy's meager lunch of five barley loaves and two small fish, He blesses the food, multiplying it to feed thousands with twelve baskets leftover."
+  },
+  {
+    "id": 41,
+    "testament": "new",
+    "title": "Jesus Walks on Water",
+    "reference_display": "Matthew 14:22–33",
+    "references": [
+      {
+        "book": "Matthew",
+        "chapter_start": 14,
+        "verse_start": 22,
+        "chapter_end": 14,
+        "verse_end": 33
+      }
+    ],
+    "summary": "In the middle of a dark night, Jesus walks out across a wind-whipped lake to reach His disciples battling a storm in their boat. Peter briefly steps out onto the water to join Him but begins sinking the moment his focus shifts to the waves."
+  },
+  {
+    "id": 42,
+    "testament": "new",
+    "title": "The Good Samaritan",
+    "reference_display": "Luke 10:25–37",
+    "references": [
+      {
+        "book": "Luke",
+        "chapter_start": 10,
+        "verse_start": 25,
+        "chapter_end": 10,
+        "verse_end": 37
+      }
+    ],
+    "summary": "Jesus shares a challenging parable about a traveler beaten by robbers and ignored by highly religious leaders who pass by on the other side. A despised Samaritan stops to bind his wounds and pay for his recovery, defining true neighborly love."
+  },
+  {
+    "id": 43,
+    "testament": "new",
+    "title": "The Parable of the Sower",
+    "reference_display": "Luke 8:4–15",
+    "references": [
+      {
+        "book": "Luke",
+        "chapter_start": 8,
+        "verse_start": 4,
+        "chapter_end": 8,
+        "verse_end": 15
+      }
+    ],
+    "summary": "Jesus uses the image of a farmer scattering seed across four distinct types of terrain to illustrate how human hearts respond to God's truth. While some seeds are choked by weeds or dried out by rocks, others fall on good soil, yielding a massive harvest."
+  },
+  {
+    "id": 44,
+    "testament": "new",
+    "title": "The Woman Caught in Adultery",
+    "reference_display": "John 8:1–11",
+    "references": [
+      {
+        "book": "John",
+        "chapter_start": 8,
+        "verse_start": 1,
+        "chapter_end": 8,
+        "verse_end": 11
+      }
+    ],
+    "summary": "Religious elites drag a woman caught in a scandalous act before Jesus, demanding she be executed by stoning to test His stance on the law. Jesus calmly writes in the dirt, challenging anyone without sin to throw the first stone, causing the accusers to slip away one by one."
+  },
+  {
+    "id": 45,
+    "testament": "new",
+    "title": "Jesus and Zacchaeus",
+    "reference_display": "Luke 19:1–10",
+    "references": [
+      {
+        "book": "Luke",
+        "chapter_start": 19,
+        "verse_start": 1,
+        "chapter_end": 19,
+        "verse_end": 10
+      }
+    ],
+    "summary": "A wealthy, widely despised chief tax collector climbs up into a sycamore tree to glimpse Jesus over a dense, hostile crowd. Jesus looks up, shocks the town by inviting Himself over to the man's home for dinner, and inspires an immediate financial transformation."
+  },
+  {
+    "id": 46,
+    "testament": "new",
+    "title": "The Prodigal Son",
+    "reference_display": "Luke 15:11–32",
+    "references": [
+      {
+        "book": "Luke",
+        "chapter_start": 15,
+        "verse_start": 11,
+        "chapter_end": 15,
+        "verse_end": 32
+      }
+    ],
+    "summary": "A rebellious younger son demands his inheritance early, runs off to a distant land, and completely squanders his wealth on wild living. Broken and starving, he returns home hoping to work as a hired servant, only to have his father run out to celebrate his return."
+  },
+  {
+    "id": 47,
+    "testament": "new",
+    "title": "Jesus Raises Lazarus from the Dead",
+    "reference_display": "John 11:1–44",
+    "references": [
+      {
+        "book": "John",
+        "chapter_start": 11,
+        "verse_start": 1,
+        "chapter_end": 11,
+        "verse_end": 44
+      }
+    ],
+    "summary": "Jesus intentionally delays visiting His sick friend Lazarus, arriving at the tomb four days after the man has passed away. After weeping with the grieving family, Jesus commands the stone door rolled away and shouts into the darkness, bringing Lazarus walking out alive."
+  },
+  {
+    "id": 48,
+    "testament": "new",
+    "title": "The Crucifixion and Resurrection",
+    "reference_display": "Matthew 27:27 – 28:10; John 19:16 – 20:23",
+    "references": [
+      {
+        "book": "Matthew",
+        "chapter_start": 27,
+        "verse_start": 27,
+        "chapter_end": 28,
+        "verse_end": 10
+      },
+      {
+        "book": "John",
+        "chapter_start": 19,
+        "verse_start": 16,
+        "chapter_end": 20,
+        "verse_end": 23
+      }
+    ],
+    "summary": "Betrayed, mocked, and beaten, Jesus is nailed to a Roman cross at Calvary to pay for humanity's sins, dying and being placed in a sealed tomb. Three days later, the heavy stone is rolled back, revealing an empty tomb and His triumphant victory over death."
+  },
+  {
+    "id": 49,
+    "testament": "new",
+    "title": "The Conversion of Saul / Paul",
+    "reference_display": "Acts 9:1–31",
+    "references": [
+      {
+        "book": "Acts",
+        "chapter_start": 9,
+        "verse_start": 1,
+        "chapter_end": 9,
+        "verse_end": 31
+      }
+    ],
+    "summary": "A militant religious zealot traveling to Damascus to arrest early Christians is suddenly struck down by a brilliant, blinding light from heaven. Jesus speaks directly to him from the light, transforming Christianity's fiercest hunter into its most influential missionary."
+  },
+  {
+    "id": 50,
+    "testament": "new",
+    "title": "The Day of Pentecost",
+    "reference_display": "Acts 2:1–41",
+    "references": [
+      {
+        "book": "Acts",
+        "chapter_start": 2,
+        "verse_start": 1,
+        "chapter_end": 2,
+        "verse_end": 41
+      }
+    ],
+    "summary": "Gathered together in Jerusalem after Jesus' ascension, the disciples experience a sudden rushing wind and resting tongues of fire as the Holy Spirit arrives. Empowered to preach fluently in multiple foreign languages, Peter delivers a sermon that launches the global Christian Church."
+  }
+]
