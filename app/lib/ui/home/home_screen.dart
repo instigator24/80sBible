@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../../data/passage_repository.dart';
 import '../../logic/verse_of_the_day.dart';
 import '../reader/passage_card.dart';
+import 'streak_badge.dart';
 import 'support_card.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -35,6 +36,8 @@ class HomeScreen extends StatelessWidget {
             'Verse of the Day',
             style: Theme.of(context).textTheme.headlineMedium,
           ),
+          const SizedBox(height: 8),
+          const StreakBadge(key: Key('home-streak-badge')),
           const SizedBox(height: 12),
           GestureDetector(
             key: const Key('verse-of-the-day-card'),

@@ -16,8 +16,12 @@ void main() {
     },
   ]);
 
-  Future<void> pump(WidgetTester tester, {String? Function(String, int)? onOpen}) async {
-    SharedPreferences.setMockInitialValues({});
+  Future<void> pump(
+    WidgetTester tester, {
+    String? Function(String, int)? onOpen,
+    Map<String, Object> initialPrefs = const {},
+  }) async {
+    SharedPreferences.setMockInitialValues(initialPrefs);
     final prefs = await SharedPreferences.getInstance();
 
     await tester.pumpWidget(
@@ -41,29 +45,23 @@ void main() {
     expect(find.text('Way back'), findsOneWidget);
   });
 
+  testWidgets('shows the current streak badge', (tester) async {
+    await pump(tester, initialPrefs: {'streak_current': 4});
+    expect(find.byKey(const Key('home-streak-badge')), findsOneWidget);
+    expect(find.text('4'), findsOneWidget);
+  });
+
   testWidgets('tapping the verse of the day card calls onOpenPassage', (tester) async {
     String? openedBook;
     int? openedChapter;
 
-    SharedPreferences.setMockInitialValues({});
-    final prefs = await SharedPreferences.getInstance();
-
-    await tester.pumpWidget(
-      ProviderScope(
-        overrides: [sharedPreferencesProvider.overrideWithValue(prefs)],
-        child: MaterialApp(
-          home: Scaffold(
-            body: HomeScreen(
-              repository: repo,
-              today: DateTime.utc(2026, 7, 22),
-              onOpenPassage: (book, chapter) {
-                openedBook = book;
-                openedChapter = chapter;
-              },
-            ),
-          ),
-        ),
-      ),
+    await pump(
+      tester,
+      onOpen: (book, chapter) {
+        openedBook = book;
+        openedChapter = chapter;
+        return null;
+      },
     );
 
     await tester.tap(find.byKey(const Key('verse-of-the-day-card')));
