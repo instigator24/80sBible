@@ -20,6 +20,13 @@ class StreakState {
   });
 }
 
+/// Normalizes [dt] to a UTC date with no time component.
+///
+/// Uses UTC to avoid DST-related date-arithmetic bugs: during DST transitions
+/// (e.g., spring-forward), local-time day differences can compute as 0 or 2
+/// instead of 1. This bug was found during implementation but can't be pinned
+/// by a unit test, since it only reproduces on systems with DST on the exact
+/// days exercised.
 DateTime _dateOnly(DateTime dt) => DateTime.utc(dt.year, dt.month, dt.day);
 
 String _formatDate(DateTime dt) {
