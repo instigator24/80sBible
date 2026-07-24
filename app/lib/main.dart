@@ -6,9 +6,12 @@ import 'data/bible_books.dart';
 import 'data/passage_repository.dart';
 import 'data/story_repository.dart';
 import 'logic/bookmarks_provider.dart';
+import 'logic/streak_provider.dart';
 import 'logic/theme_provider.dart';
 import 'ui/bookmarks/bookmarks_screen.dart';
 import 'ui/home/home_screen.dart';
+import 'ui/home/streak_badge.dart';
+import 'ui/home/streak_milestone_overlay.dart';
 import 'ui/reader/reader_screen.dart';
 import 'ui/search/search_screen.dart';
 import 'ui/settings/settings_screen.dart';
@@ -60,11 +63,13 @@ class SlangBibleApp extends ConsumerWidget {
 class RootShell extends ConsumerStatefulWidget {
   final PassageRepository repository;
   final StoryRepository storyRepository;
+  final DateTime? today;
 
   const RootShell({
     super.key,
     required this.repository,
     required this.storyRepository,
+    this.today,
   });
 
   @override
@@ -76,6 +81,21 @@ class _RootShellState extends ConsumerState<RootShell> {
   String? _pendingBook;
   int? _pendingChapter;
   int _navSeq = 0;
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) => _recordAppOpen());
+  }
+
+  Future<void> _recordAppOpen() async {
+    final milestone = await ref
+        .read(streakProvider.notifier)
+        .recordAppOpen(widget.today ?? DateTime.now());
+    if (milestone != null && mounted) {
+      await showStreakMilestoneOverlay(context, milestone);
+    }
+  }
 
   void _openInReader(String book, int chapter) {
     setState(() {
@@ -110,7 +130,20 @@ class _RootShellState extends ConsumerState<RootShell> {
     ];
 
     return Scaffold(
-      appBar: AppBar(title: const Text("80's Bible")),
+      appBar: AppBar(
+        title: const Text("80's Bible"),
+        actions: const [
+          Padding(
+            padding: EdgeInsets.only(right: 16),
+            child: Center(
+              child: StreakBadge(
+                key: Key('appbar-streak-badge'),
+                compact: true,
+              ),
+            ),
+          ),
+        ],
+      ),
       body: Stack(
         children: [
           Positioned.fill(child: rootBackgroundForTheme(themeId)),
