@@ -5,7 +5,7 @@
 The app currently has no way to browse the Bible by narrative — only by
 book/chapter (Reader), bookmarks, or keyword search. `top_50_bible_stories.md`
 already contains a chronologically-ordered, hand-curated list of the 50 most
-famous Bible stories (25 Old Testament, 25 New Testament), each with a title,
+famous Bible stories (32 Old Testament, 18 New Testament), each with a title,
 scripture reference, and 2-sentence summary. We want a "Stories" page that
 lets a user browse this list by testament and drill into a story to read
 either its summary or its actual verses (in the app's existing slang/WEB
