@@ -20,7 +20,7 @@ class StreakState {
   });
 }
 
-DateTime _dateOnly(DateTime dt) => DateTime(dt.year, dt.month, dt.day);
+DateTime _dateOnly(DateTime dt) => DateTime.utc(dt.year, dt.month, dt.day);
 
 String _formatDate(DateTime dt) {
   final d = _dateOnly(dt);
@@ -38,7 +38,7 @@ class StreakNotifier extends Notifier<StreakState> {
     return StreakState(
       current: prefs.getInt(_currentKey) ?? 0,
       longest: prefs.getInt(_longestKey) ?? 0,
-      lastReadDate: rawDate == null ? null : DateTime.parse(rawDate),
+      lastReadDate: rawDate == null ? null : DateTime.parse('${rawDate}T00:00:00Z'),
     );
   }
 
@@ -52,12 +52,11 @@ class StreakNotifier extends Notifier<StreakState> {
       return null;
     }
 
-    // Check if today is exactly 1 day after last. To avoid daylight saving time
-    // issues with difference().inDays, we add Duration(days: 1) to last and compare.
+    // Check if today is exactly 1 day after last. Both dates are normalized to UTC,
+    // so the difference is precise regardless of DST transitions.
     bool isConsecutive = false;
     if (last != null) {
-      final nextDay = DateTime(last.year, last.month, last.day).add(Duration(days: 1));
-      isConsecutive = today == nextDay;
+      isConsecutive = today.difference(last).inDays == 1;
     }
 
     final nextCurrent = isConsecutive ? state.current + 1 : 1;

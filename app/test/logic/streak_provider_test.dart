@@ -41,7 +41,7 @@ void main() {
       final state = container.read(streakProvider);
       expect(state.current, 1);
       expect(state.longest, 1);
-      expect(state.lastReadDate, DateTime(2026, 7, 1));
+      expect(state.lastReadDate, DateTime.utc(2026, 7, 1));
     });
 
     test('opening again the same day is a no-op', () async {
